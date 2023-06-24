@@ -33,46 +33,6 @@ header {
   color: #ff8800;
 }
 
-section {
-  margin-bottom: 40px;
-}
-
-h2 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.video-gallery,
-.property-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.video-card,
-.property-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.video-card::before,
-.property-card::before {
-  content: "";
-  display: block;
-  padding-top: 56.25%;
-}
-
-.video-card video,
-.property-card img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 footer {
   margin-top: 40px;
   color: #888;

@@ -5,13 +5,16 @@ export const Header = () => {
       <nav>
         <ul className="navbar">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Главна страница</Link>
           </li>
           <li>
-            <Link to="/videos">Featured Videos</Link>
+            <Link to="/properties">Снимки и видеа на имоти</Link>
           </li>
           <li>
-            <Link to="/properties">Real Estate Properties</Link>
+            <Link to="/videos">Снимки и видеа на природа</Link>
+          </li>
+          <li>
+            <Link to="/contacts">Контакти</Link>
           </li>
         </ul>
       </nav>
