@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../../css/bootstrap.min.css";
-import "../../App.css";
+import "../../css-components/App.css";
 
 import React, { useEffect, useState } from "react";
 
@@ -37,12 +37,12 @@ export const Header = () => {
             <Link
               className={
                 isScrolled
-                  ? "navbar-brand scrolled webzone-text"
-                  : "navbar-brand webzone-text"
+                  ? "navbar-brand scrolled webzone-text nav-item"
+                  : "navbar-brand webzone-text nav-item"
               }
               to="/"
             >
-              <span>Web Zone</span>
+              <span>Галерия</span>
             </Link>
             <button
               className="navbar-toggler"
@@ -59,41 +59,33 @@ export const Header = () => {
               <div className="mx-auto" />
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Home
-                  </a>
+                  <Link className="nav-link" to="/">
+                    Снимки на природа
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    About
-                  </a>
+                  <Link className="nav-link" to="/">
+                   Снимки на имоти
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Blog
-                  </a>
+                  <Link className="nav-link" to="/">
+                    Контакти
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Pricing
-                  </a>
+                  <Link className="nav-link" to="/">
+                    Цени
+                  </Link>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Contact
-                  </a>
-                </li>
+                
               </ul>
             </div>
           </div>
         </nav>
       </header>
 
-      <div className="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-        <div className="content text-center">
-          <h1 className={isScrolled ? "text-gray" : "text-white"}>LOREM</h1>
-        </div>
-      </div>
+      
 
       <script src="js/bootstrap.bundle.min.js"></script>
     </>
