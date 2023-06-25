@@ -1,36 +1,42 @@
 .app {
   text-align: center;
-  padding: 20px;
-}
-
-header {
-  margin-bottom: 40px;
 }
 
 .navbar {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-  padding: 20px;
-  border-radius: 5px;
+  transition: background-color 1s;
 }
 
-.navbar li {
-  margin-right: 60px; /* Increased from 20px to 30px */
+.navbar.scrolled {
+  background-color: gray;
 }
 
-.navbar li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  transition: color 0.3s ease;
+.navbar a.nav-link {
+  transition: color 0.3s;
+  color: white !important;
 }
 
-.navbar li a:hover {
-  color: #ff8800;
+.navbar.scrolled a.nav-link {
+  color: white !important;
+}
+
+.navbar a.nav-link:hover {
+  color: black !important;
+}
+
+.navbar.scrolled a.nav-link:hover {
+  color: gray !important;
+}
+
+.webzone-text {
+  transition: color 0.5s !important;
+}
+
+.webzone-text:hover {
+  color: black !important;
+}
+
+.navbar-brand.scrolled:hover {
+  color: gray !important;
 }
 
 footer {

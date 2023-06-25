@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/Header";
 import { HomePage } from "./components/HomePage";
 import { Route, Routes } from "react-router";
 
@@ -18,7 +18,7 @@ function App() {
       </Routes>
 
       <footer>
-        <p>&copy; 2023 Your Real Estate Drone Business</p>
+        <p>&copy; 2023 Bg Drone Footage</p>
       </footer>
     </div>
   );
