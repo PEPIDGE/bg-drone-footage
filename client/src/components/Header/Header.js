@@ -37,8 +37,8 @@ export const Header = () => {
             <Link
               className={
                 isScrolled
-                  ? "navbar-brand scrolled webzone-text nav-item"
-                  : "navbar-brand webzone-text nav-item"
+                  ? "navbar-brand scrolled webzone-text nav-item nav-link"
+                  : "navbar-brand webzone-text nav-item nav-link"
               }
               to="/"
             >
@@ -60,12 +60,17 @@ export const Header = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link className="nav-link" to="/">
+                    Услуги
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/">
                     Снимки на природа
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/">
-                   Снимки на имоти
+                    Снимки на имоти
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -73,19 +78,11 @@ export const Header = () => {
                     Контакти
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/">
-                    Цени
-                  </Link>
-                </li>
-                
               </ul>
             </div>
           </div>
         </nav>
       </header>
-
-      
 
       <script src="js/bootstrap.bundle.min.js"></script>
     </>

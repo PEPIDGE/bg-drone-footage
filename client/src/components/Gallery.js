@@ -63,7 +63,184 @@ export const Gallery = () => {
           <a href="/link2">Read More</a>
         </div>
       </a>
-
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0015.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0016.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0017.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a> <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0015.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0016.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0017.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a> <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0015.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0016.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0017.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a> <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0015.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0016.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0017.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a> <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0015.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0016.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0017.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
+      <a href="#" className="gallery-item">
+        <img src="./photos/DJI_0021.jpg" alt="Image 2" />
+        <div className="gallery-overlay">
+          <p>Image 2 Description</p>
+          <a href="/link2">Read More</a>
+        </div>
+      </a>
       {/* Add more gallery items as needed */}
     </div>
   );
