@@ -17,6 +17,7 @@
   width: 280px;
   height: 280px;
   margin: 10px;
+  border-radius: 20px;
   overflow: hidden;
 }
 

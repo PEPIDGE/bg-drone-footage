@@ -12,3 +12,26 @@ h2 {
   margin: 0 auto;
   padding: 20px;
 }
+.main-text {
+  color: white;
+  margin: 200px auto;
+  text-align: left;
+  width: 550px;
+  font-size: 25px;
+}
+
+.red-text {
+  color: #ea1538;
+}
+.click-here {
+  color:#ea1538;
+}
+.more {
+  margin-top: 30px;
+  color: white;
+}
+.click-here:hover {
+  color: white;
+  transition: 0.3s;
+}
+
