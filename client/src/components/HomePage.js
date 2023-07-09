@@ -17,7 +17,7 @@ export const HomePage = () => {
               заснемане на видеа и снимки с дрон.
             </h1>
 
-            <Link className="number" to={"/services"}>
+            <Link className="number more" to={"/services"}>
               Научи повече тук
             </Link>
           </div>

@@ -120,3 +120,9 @@ ion-icon#white:hover {
   background-color: rgb(35, 30, 30);
   border-radius: 5px;
 }
+
+.more {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 5%;
+}
