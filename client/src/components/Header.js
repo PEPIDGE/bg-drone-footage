@@ -4,6 +4,8 @@ import "../css-components/App.css";
 import React, { useEffect, useState } from "react";
 
 export const Header = ({ boolean }) => {
+  const [messageVisible, setMessageVisible] = useState(false);
+
   const copyToClipboard = () => {
     const textToCopy = "0884686895";
 
@@ -40,13 +42,6 @@ export const Header = ({ boolean }) => {
         </ul>
         <div className="number" onClick={copyToClipboard}>
           0884 686 895{" "}
-          {messageVisible && (
-            <div className="copy-message">
-              <div className="copy-message-content">
-                <span>Text copied to clipboard!</span>
-              </div>
-            </div>
-          )}
         </div>
         <div className="social-links-container">
           <Link
@@ -91,6 +86,11 @@ export const Header = ({ boolean }) => {
           </Link>
         </div>
       </nav>
+      {messageVisible && (
+        <div className="copy-message-content">
+          <span>Text copied to clipboard!</span>
+        </div>
+      )}
     </>
   );
 };

@@ -5,7 +5,7 @@ import { Gallery } from "./Gallery";
 import { Header } from "./Header";
 export const HomePage = () => {
   const [boolean, setBolean] = useState(false);
-  
+
   return (
     <>
       <div className="hero">
@@ -16,17 +16,13 @@ export const HomePage = () => {
               Ние предлагаме <span className="red-text">професионално</span>{" "}
               заснемане на видеа и снимки с дрон.
             </h1>
-            <h2 className="more">
-              Научи повече{" "}
-              <Link className="click-here" to={"/services"}>
-                тук
-              </Link>
-              .
-            </h2>
+
+            <Link className="number" to={"/services"}>
+              Научи повече тук
+            </Link>
           </div>
         </div>
       </div>
-      <Gallery />
     </>
   );
 };
