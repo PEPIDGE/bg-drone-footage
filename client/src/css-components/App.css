@@ -46,7 +46,7 @@ ul.black li a {
 }
 nav ul li a:hover {
   color: #ea1538;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .number {
@@ -63,6 +63,36 @@ nav ul li a:hover {
 button:hover {
   transform: scale(1.3);
   cursor: pointer;
+}
+
+ion-icon#white {
+  font-size: 32px;
+  color: white;
+}
+
+ion-icon#black {
+  font-size: 32px;
+  color: black;
+}
+
+ion-icon#black:hover {
+  font-size: 32px;
+  transition: color 0.5s;
+  color: #ea1538;
+}
+
+ion-icon#white:hover {
+  font-size: 32px;
+  transition: color 0.5s;
+  color: #ea1538;
+}
+
+.social-link {
+  margin-right: 7%;
+}
+
+.social-links-container {
+  width: 180px;
 }
 
 footer {
