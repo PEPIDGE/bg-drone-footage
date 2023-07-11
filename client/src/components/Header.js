@@ -1,10 +1,32 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../css-components/App.css";
 
 import React, { useEffect, useState } from "react";
 
 export const Header = ({ boolean }) => {
   const [messageVisible, setMessageVisible] = useState(false);
+  const [selected, setSelected] = useState({
+    "/": false,
+    "/gallery": false,
+    "/services": false,
+    "/contacts": false,
+  });
+
+  const location = useLocation().pathname;
+
+  useEffect(() => {
+    setSelected((prevSelected) => ({
+      ...prevSelected,
+      [location]: true,
+    }));
+  }, [location]);
+
+  const select = () => {
+    setSelected((prevSelected) => ({
+      ...prevSelected,
+      [location]: true,
+    }));
+  };
 
   const copyToClipboard = () => {
     const textToCopy = "0884686895";
@@ -28,16 +50,40 @@ export const Header = ({ boolean }) => {
         <img src="./photos/LOGO.png" alt="logo image" className="logo" />
         <ul className={boolean ? "black" : ""}>
           <li>
-            <Link to="/">Начало</Link>
+            <Link
+              onClick={select}
+              className={selected["/"] ? "selected" : ""}
+              to="/"
+            >
+              Начало
+            </Link>
           </li>
           <li>
-            <Link to="/gallery">Галерия</Link>
+            <Link
+              onClick={select}
+              className={selected["/gallery"] ? "selected" : ""}
+              to="/gallery"
+            >
+              Галерия
+            </Link>
           </li>
           <li>
-            <a href="#">Услуги</a>
+            <Link
+              onClick={select}
+              className={selected["/services"] ? "selected" : ""}
+              to="/services"
+            >
+              Услуги
+            </Link>
           </li>
           <li>
-            <a href="#">Контакти</a>
+            <Link
+              onClick={select}
+              className={selected["/contacts"] ? "selected" : ""}
+              to="/contacts"
+            >
+              Контакти
+            </Link>
           </li>
         </ul>
         <div className="number" onClick={copyToClipboard}>

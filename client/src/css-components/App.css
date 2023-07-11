@@ -13,8 +13,8 @@
     url("../../public/photos/banner.jpg");
   background-size: cover;
   background-position: center;
-  overflow-y:hidden;
-  overflow-x:hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 nav {
@@ -39,18 +39,52 @@ nav ul li {
   display: inline-block;
   padding: 10px 20px;
 }
+
+ul.black li a {
+  color: black;
+}
+
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: o 10px;
 }
-ul.black li a {
-  color: black;
+
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: #ea1538;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
+
 nav ul li a:hover {
   color: #ea1538;
-  transition: 0.5s;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+nav ul li a.selected {
+  color: #ea1538;
+}
+nav ul li a.selected:after {
+  content: "";
+  position: absolute;
+  background-color: #ea1538;
+  color: #ea1538;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+  transition: 0;
 }
 
 .number {
