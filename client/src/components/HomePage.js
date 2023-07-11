@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Gallery } from "./Gallery";
 import { Header } from "./Header";
 export const HomePage = () => {
-  const [boolean, setBolean] = useState(false);
+  const boolean = false;
 
   return (
     <>
@@ -20,6 +20,26 @@ export const HomePage = () => {
             <Link className="number more" to={"/services"}>
               Научи повече тук
             </Link>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="content-section">
+          <div class="card">
+            <img src="./photos/DJI_0147.jpg" />
+            <h2>Card One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+          <div class="card">
+            <img src="./photos/DJI_0147.jpg" />
+            <h2>Card One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+          <div class="card">
+            <img src="./photos/DJI_0147.jpg" />
+            <h2>Card One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
           </div>
         </div>
       </div>

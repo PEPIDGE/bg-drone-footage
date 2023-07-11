@@ -84,7 +84,7 @@ nav ul li a.selected:after {
   width: 100%;
   left: 0;
   bottom: -10px;
-  transition: 0;
+  transition: 0; 
 }
 
 .number {
