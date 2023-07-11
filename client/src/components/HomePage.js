@@ -28,18 +28,18 @@ export const HomePage = () => {
         <div class="content-section">
           <div class="card">
             <img src="./photos/DJI_0147.jpg" />
-            <h2>Card One</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <h2>Качество</h2>
+            <p>4К HDR видеа</p>
           </div>
           <div class="card">
             <img src="./photos/DJI_0147.jpg" />
-            <h2>Card One</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <h2>Видеообработка</h2>
+            <p>Ние предлагаме видеообработка на поредица от видеа и снимки в сюжетна линия</p>
           </div>
           <div class="card">
             <img src="./photos/DJI_0147.jpg" />
-            <h2>Card One</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <h2>Времетраене</h2>
+            <p>Над 120 минути във въздуха</p>
           </div>
         </div>
       </div>
