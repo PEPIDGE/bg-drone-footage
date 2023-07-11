@@ -46,9 +46,12 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 0px 90px;
+  flex-direction: column;
 }
 
 .content-section {
+  flex-wrap: wrap;
+  flex-basis: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,10 +59,10 @@ h2 {
 }
 
 .content-section .card {
-  width: 25%;
-  height: 470px;
+  width: 23%;
+  height: 350px;
   border-radius: 20px;
-  margin: 20px 25px;
+  margin: 40px 25px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
   transition: 0.4s;
   display: flex;
@@ -73,8 +76,11 @@ h2 {
 .content-section .card img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
-  height: auto;
-  max-height: 350px;
+  height: 200px;
+}
+
+.quality {
+  height: 225px !important;
 }
 
 .content-section .card h2 {
@@ -92,8 +98,20 @@ h2 {
   overflow: hidden;
 }
 
+.title {
+  color: #ea1538;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+}
+
 @media screen and (max-width: 768px) {
   .content-section {
     flex-direction: column;
+  }
+  .content-section .card {
+    width: 90%;
   }
 }
