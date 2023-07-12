@@ -63,12 +63,14 @@ h2 {
   width: 23%;
   height: 350px;
   border-radius: 20px;
-  margin: 40px 25px;
+  margin: 40px 25px -30px 25px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
   transition: 0.4s;
   display: flex;
   flex-direction: column;
 }
+
+
 
 .card:hover {
   transform: scale(1.15);
@@ -105,8 +107,8 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  column-gap: 1.6rem;
-  margin: 30px;
+  column-gap: 1.4rem;
+  margin: 20px;
   background-color: #f7f7f7;
 }
 .container{
@@ -116,6 +118,7 @@ h2 {
 }
 
 .title::before, .title::after{
+  width: 400px;
   content: "";
   height: 2px;
   background-color: #ea1538;
@@ -123,10 +126,9 @@ h2 {
 }
 
 
-
-@media (768px <= width <= 1300px) {
+@media screen and (768px <= width <= 1300px) {
   .main-text {
-    margin: 100px 25%;
+    margin: 30px 280px 230px 130px !important;
   }
   .content-section .card{
     height: 400px;
