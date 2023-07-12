@@ -25,9 +25,8 @@ export const HomePage = () => {
         </div>
       </div>
 
-    <h1 className="title">Защо да изберете нас?</h1>
-
       <div className="card-container">
+        <h1 className="title">Защо да изберете нас?</h1>
         <div className="content-section">
           <div className="card">
             <img className="quality" src="./photos/DJI_0147.jpg" />

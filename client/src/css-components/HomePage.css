@@ -63,14 +63,12 @@ h2 {
   width: 23%;
   height: 350px;
   border-radius: 20px;
-  margin: 40px 25px -30px 25px;
+  margin: -30px 25px 30px 25px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
   transition: 0.4s;
   display: flex;
   flex-direction: column;
 }
-
-
 
 .card:hover {
   transform: scale(1.15);
@@ -101,41 +99,44 @@ h2 {
   overflow: hidden;
 }
 
-.title {
-  color: #ea1538;
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  column-gap: 1.4rem;
-  margin: 20px;
-  background-color: #f7f7f7;
-}
-.container{
+.container {
   height: 100vh;
   display: flex;
-  align-items: center; justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+h1.title {
+  color: #ea1538;
+  margin: 100px auto;
+  font-size: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.title::before, .title::after{
-  width: 400px;
+h1.title:before,
+h1.title:after {
   content: "";
-  height: 2px;
-  background-color: #ea1538;
-  display: block;
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+  color: #ea1538;
 }
 
+h1.title:after {
+  margin: 0 0 0 20px;
+}
 
 @media screen and (768px <= width <= 1300px) {
   .main-text {
     margin: 30px 280px 230px 130px !important;
   }
-  .content-section .card{
+  .content-section .card {
     height: 400px;
   }
-
-}  
-
+}
 
 @media screen and (max-width: 768px) {
   .content-section {
