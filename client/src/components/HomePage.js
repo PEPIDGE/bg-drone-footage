@@ -25,15 +25,16 @@ export const HomePage = () => {
         </div>
       </div>
 
-      <div class="card-container">
-        <h1 className="title">Защо да изберете нас?</h1>
-        <div class="content-section">
-          <div class="card">
+    <h1 className="title">Защо да изберете нас?</h1>
+
+      <div className="card-container">
+        <div className="content-section">
+          <div className="card">
             <img className="quality" src="./photos/DJI_0147.jpg" />
             <h2>Качество</h2>
             <p>4К HDR видеа</p>
           </div>
-          <div class="card">
+          <div className="card">
             <img src="./photos/DJI_0147.jpg" />
             <h2>Фотография</h2>
             <p>
@@ -42,14 +43,14 @@ export const HomePage = () => {
             </p>
           </div>
 
-          <div class="card">
+          <div className="card">
             <img className="quality" src="./photos/DJI_0147.jpg" />
             <h2>Времетраене</h2>
             <p>Над 120 минути във въздуха</p>
           </div>
 
-          <div class="content-section">
-            <div class="card">
+          <div className="content-section">
+            <div className="card">
               <img src="./photos/DJI_0147.jpg" />
               <h2>Видеообработка</h2>
               <p>
@@ -57,12 +58,12 @@ export const HomePage = () => {
                 сюжетна линия
               </p>
             </div>
-            <div class="card">
+            <div className="card">
               <img src="./photos/DJI_0147.jpg" />
               <h2>360 градусова панорама</h2>
               <p>Ние предлагаме 360 градусова реалност в снимка </p>
             </div>
-            <div class="card">
+            <div className="card">
               <img src="./photos/DJI_0147.jpg" />
               <h2>
                 Вертикални видеа <br /> и снимки

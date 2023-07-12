@@ -50,6 +50,7 @@ h2 {
 }
 
 .content-section {
+  margin-top: 100px;
   flex-wrap: wrap;
   flex-basis: 100%;
   display: flex;
@@ -100,12 +101,39 @@ h2 {
 
 .title {
   color: #ea1538;
-  position: relative;
+  position: absolute;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   column-gap: 1.6rem;
+  margin: 30px;
+  background-color: #f7f7f7;
 }
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center; justify-content: center;
+}
+
+.title::before, .title::after{
+  content: "";
+  height: 2px;
+  background-color: #ea1538;
+  display: block;
+}
+
+
+
+@media (768px <= width <= 1300px) {
+  .main-text {
+    margin: 100px 25%;
+  }
+  .content-section .card{
+    height: 400px;
+  }
+
+}  
+
 
 @media screen and (max-width: 768px) {
   .content-section {
