@@ -5,7 +5,7 @@
   align-items: center;
   padding: 20px;
   margin-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 .contact-info {
@@ -49,10 +49,4 @@ h2 {
 
 p {
   margin: 0;
-}
-
-@media screen and (min-height: 728px) {
-  .contacts-page {
-    margin-top: 450px;
-  }
 }
