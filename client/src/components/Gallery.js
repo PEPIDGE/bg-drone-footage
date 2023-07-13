@@ -73,12 +73,6 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0193.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
           <img src="./photos/DJI_0194.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/link2">Виж повече</Link>
@@ -86,18 +80,6 @@ export const Gallery = () => {
         </Link>
         <Link to="#" className="gallery-item">
           <img src="./photos/DJI_0195.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0196.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>{" "}
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0198.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/link2">Виж повече</Link>
           </div>

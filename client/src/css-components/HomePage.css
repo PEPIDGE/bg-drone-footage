@@ -108,7 +108,7 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   column-gap: 1.4rem;
-  margin: 20px;
+  margin: 45px 0px 0px 0px;
   background-color: #f7f7f7;
 }
 .container{
@@ -124,7 +124,9 @@ h2 {
   background-color: #ea1538;
   display: block;
 }
-
+.content-section.second {
+  margin-bottom: 100px;
+}
 
 @media screen and (768px <= width <= 1300px) {
   .main-text {

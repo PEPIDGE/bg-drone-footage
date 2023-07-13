@@ -25,8 +25,8 @@ export const HomePage = () => {
         </div>
       </div>
 
-    <h1 className="title">Защо да изберете нас?</h1>
 
+    <h1 className="title">Защо да изберете нас?</h1>
       <div className="card-container">
         <div className="content-section">
           <div className="card">
@@ -49,7 +49,7 @@ export const HomePage = () => {
             <p>Над 120 минути във въздуха</p>
           </div>
 
-          <div className="content-section">
+          <div className="content-section second">
             <div className="card">
               <img src="./photos/DJI_0147.jpg" />
               <h2>Видеообработка</h2>

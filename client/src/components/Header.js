@@ -4,6 +4,7 @@ import "../css-components/App.css";
 import React, { useEffect, useState } from "react";
 
 export const Header = ({ boolean }) => {
+  
   const [messageVisible, setMessageVisible] = useState(false);
   const [selected, setSelected] = useState({
     "/": false,
@@ -47,7 +48,7 @@ export const Header = ({ boolean }) => {
   return (
     <>
       <nav>
-        <img src="./photos/LOGO.png" alt="logo image" className="logo" />
+        <Link to={"/"}><img src="./photos/LOGO.png" alt="logo image" className="logo" /></Link>
         <ul className={boolean ? "black" : ""}>
           <li>
             <Link
@@ -86,9 +87,11 @@ export const Header = ({ boolean }) => {
             </Link>
           </li>
         </ul>
+
         <div className="number" onClick={copyToClipboard}>
           0884 686 895{" "}
         </div>
+
         <div className="social-links-container">
           <Link
             className="social-link"
