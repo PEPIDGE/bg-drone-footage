@@ -25,17 +25,16 @@ export const HomePage = () => {
         </div>
       </div>
 
-
-    <h1 className="title">Защо да изберете нас?</h1>
+      <h1 className="title">Защо да изберете нас?</h1>
       <div className="card-container">
         <div className="content-section">
           <div className="card">
-            <img className="quality" src="./photos/DJI_0147.jpg" />
+            <img className="quality" src="./photos/cardPhoto.jpg" />
             <h2>Качество</h2>
             <p>4К HDR видеа</p>
           </div>
           <div className="card">
-            <img src="./photos/DJI_0147.jpg" />
+            <img src="./photos/cardPhoto.jpg" />
             <h2>Фотография</h2>
             <p>
               Ние предлагаме висококачествена фотография с 48 MP сензор 8064 x
@@ -44,14 +43,14 @@ export const HomePage = () => {
           </div>
 
           <div className="card">
-            <img className="quality" src="./photos/DJI_0147.jpg" />
+            <img className="quality" src="./photos/cardPhoto.jpg" />
             <h2>Времетраене</h2>
             <p>Над 120 минути във въздуха</p>
           </div>
 
           <div className="content-section second">
             <div className="card">
-              <img src="./photos/DJI_0147.jpg" />
+              <img src="./photos/cardPhoto.jpg" />
               <h2>Видеообработка</h2>
               <p>
                 Ние предлагаме видеообработка на поредица от видеа и снимки в
@@ -59,12 +58,12 @@ export const HomePage = () => {
               </p>
             </div>
             <div className="card">
-              <img src="./photos/DJI_0147.jpg" />
+              <img src="./photos/cardPhoto.jpg" />
               <h2>360 градусова панорама</h2>
               <p>Ние предлагаме 360 градусова реалност в снимка </p>
             </div>
             <div className="card">
-              <img src="./photos/DJI_0147.jpg" />
+              <img src="./photos/cardPhoto.jpg" />
               <h2>
                 Вертикални видеа <br /> и снимки
               </h2>

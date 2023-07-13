@@ -13,7 +13,7 @@ export const ServicesPage = () => {
         <div className="card-container">
           <div className="content-section">
             <div className="card">
-              <img src="./photos/DJI_0147.jpg" />
+              <img src="./photos/DJI_0213.jpg" />
               <h2>Комплекси</h2>
               <p>
                 Предлагаме снимков и видео материал на вашият движим или
@@ -21,37 +21,40 @@ export const ServicesPage = () => {
               </p>
             </div>
             <div className="card">
-              <img src="./photos/DJI_0147.jpg" />
+              <img src="./photos/wedding-drone.png" />
               <h2>Сватби</h2>
               <p>Ние ще дойдем и ще снимаме ваше събитие</p>
             </div>
 
             <div className="card">
-              <img src="./photos/DJI_0147.jpg" />
+              <img src="./photos/DJI_0222.jpg" />
               <h2>Хотели</h2>
               <p>Предлагаме снимков и видео материал на вашият недвижим имот</p>
             </div>
 
             <div className="content-section second">
               <div className="card">
-                <img src="./photos/DJI_0147.jpg" />
-                <h2>Видеообработка</h2>
+                <img src="./photos/drone.jpeg" />
+                <h2>Рекламни продукции</h2>
                 <p>
-                  Ние предлагаме видеообработка на поредица от видеа и снимки в
-                  сюжетна линия
+                  Можем да заснемем въздушни кадри за филми, реклами или
+                  музикални видеоклипове
                 </p>
               </div>
               <div className="card">
-                <img src="./photos/DJI_0147.jpg" />
+                <img src="./photos/360drone.jpg" />
                 <h2>360 градусова панорама</h2>
                 <p>Ние предлагаме 360 градусова реалност в снимка </p>
               </div>
               <div className="card">
-                <img src="./photos/DJI_0147.jpg" />
+                <img src="./photos/insta.jpg" className="taller-img" />
                 <h2>
-                  Вертикални видеа <br /> и снимки
+                  Инстаграм видеа <br /> и снимки
                 </h2>
-                <p>Видеа и снимки за социалните платформи</p>
+                <p>
+                  Ние предлагаме видеа и снимки за социалните платформи с високо
+                  качество
+                </p>
               </div>
             </div>
           </div>

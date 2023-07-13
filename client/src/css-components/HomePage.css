@@ -70,13 +70,12 @@ h2 {
   flex-direction: column;
 }
 
-
-
 .card:hover {
   transform: scale(1.15);
 }
 
 .content-section .card img {
+  object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 200px;
@@ -100,7 +99,6 @@ h2 {
   margin: 5px 0;
   overflow: hidden;
   border-radius: 20px;
-
 }
 
 .title {
@@ -113,13 +111,15 @@ h2 {
   margin: 45px 0px 0px 0px;
   background-color: #f7f7f7;
 }
-.container{
+.container {
   height: 100vh;
   display: flex;
-  align-items: center; justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.title::before, .title::after{
+.title::before,
+.title::after {
   width: 400px;
   content: "";
   height: 2px;
@@ -134,12 +134,10 @@ h2 {
   .main-text {
     margin: 30px 280px 230px 130px !important;
   }
-  .content-section .card{
+  .content-section .card {
     height: 400px;
   }
-
-}  
-
+}
 
 @media screen and (max-width: 768px) {
   .content-section {

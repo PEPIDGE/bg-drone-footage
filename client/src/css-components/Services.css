@@ -1,7 +1,6 @@
 .services * {
   background-color: white !important;
 }
-.services {
-  padding: 2.5rem;
+.taller-img {
+  height: 175px !important;
 }
-
