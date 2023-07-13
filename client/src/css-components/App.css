@@ -136,7 +136,7 @@ ion-icon#white:hover {
 .copy-message-content {
   position: absolute;
   right: 44%;
-  top: 17%;
+  top: 19%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,13 +167,6 @@ ion-icon#white:hover {
   align-items: center;
   text-align: center;
   margin-bottom: -20px;
-}
-.contact-template {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ea1538;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .footer__contact {

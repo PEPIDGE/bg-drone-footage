@@ -21,10 +21,10 @@ export const Footer = () => {
         </div>
       </div>
       <div className="footer__social">
-        <Link to="https://www.facebook.com/profile.php?id=100093293493392" className="footer__social-link"><FaFacebook /></Link>
-        <Link to="https://youtube.com/@BGDroneFootage" className="footer__social-link"><FaYoutube/></Link>
-        <Link to="https://www.instagram.com/bg_drone_footage/" className="footer__social-link"><FaInstagram /></Link>
-        <Link to="https://www.tiktok.com/@bg_drone_footage" className="footer__social-link"><FaTiktok/></Link>
+        <Link to="https://www.facebook.com/profile.php?id=100093293493392" className="footer__social-link" target="_blank"><FaFacebook /></Link>
+        <Link to="https://youtube.com/@BGDroneFootage" className="footer__social-link" target="_blank"><FaYoutube/></Link>
+        <Link to="https://www.instagram.com/bg_drone_footage/" className="footer__social-link" target="_blank"><FaInstagram /></Link>
+        <Link to="https://www.tiktok.com/@bg_drone_footage" className="footer__social-link" target="_blank"><FaTiktok/></Link>
       </div>
     </footer>
   );

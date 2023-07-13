@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router";
 import { Gallery } from "./components/Gallery";
 import {Footer} from "./components/Footer";
 import { ContactPage } from "./components/ContactPage";
+import { ServicesPage } from "./components/ServicesPage";
 
 function App() {
   return (
@@ -12,8 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/services" element={<HomePage />} />
-        <Route path="/services" element={<HomePage />} />
+        <Route path="/services" element={<ServicesPage />} />
         <Route path="/contacts" element={<ContactPage/>} />
 
         {/* <Route path="*" element={<Page404 />} /> */}
