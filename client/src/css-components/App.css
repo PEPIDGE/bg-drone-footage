@@ -133,12 +133,6 @@ ion-icon#white:hover {
   width: 180px;
 }
 
-.text-center footer {
-  margin-top: 40px;
-  color: #888;
-  margin: 0 auto;
-}
-
 .copy-message-content {
   position: absolute;
   right: 44%;
@@ -163,3 +157,69 @@ ion-icon#white:hover {
   text-decoration: none;
   margin-left: 5%;
 }
+
+.footer {
+  background-color: #ea1538;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: -20px;
+}
+.contact-template {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ea1538;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.footer__icon {
+  margin-right: 8px;
+}
+
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__social-link {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .footer__contact {
+    flex-direction: column;
+  }
+
+  .footer__item {
+    margin-bottom: 10px;
+  }
+
+  .footer__social {
+    margin-top: 20px;
+  }
+}
+
+
