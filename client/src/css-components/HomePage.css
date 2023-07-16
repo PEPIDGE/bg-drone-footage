@@ -103,28 +103,31 @@ h2 {
 
 .title {
   color: #ea1538;
+  width: 100%;
   position: absolute;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  column-gap: 1.4rem;
+  justify-content: center;
+  column-gap: 20rem;
   margin: 45px 0px 0px 0px;
   background-color: #f7f7f7;
 }
+
+.title::before,
+.title::after {
+  width: 100%;
+  content: "";
+  height: 2px;
+  background-color: #ea1538;
+  display: block;
+}
+
 .container {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.title::before,
-.title::after {
-  width: 400px;
-  content: "";
-  height: 2px;
-  background-color: #ea1538;
-  display: block;
 }
 .content-section.second {
   margin-bottom: 100px;
