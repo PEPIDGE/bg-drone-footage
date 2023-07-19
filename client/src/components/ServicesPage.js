@@ -11,6 +11,7 @@ export const ServicesPage = () => {
       <Header boolean={boolean} />
       <div className="services">
         <h1 className="title">Какви услуги предлагаме</h1>
+        <div className="card-wrapper">
         <div className="card-container">
           <div className="content-section">
             <div className="card">
@@ -57,6 +58,7 @@ export const ServicesPage = () => {
                   качество
                 </p>
               </div>
+            </div>
             </div>
           </div>
         </div>

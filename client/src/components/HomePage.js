@@ -19,7 +19,7 @@ export const HomePage = () => {
               заснемане на видеа и снимки с дрон.
             </h1>
 
-            <Link className="number more" to={"/services"}>
+            <Link className="red-button more" to={"/services"}>
               Научи повече тук
             </Link>
           </div>

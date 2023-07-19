@@ -10,6 +10,7 @@ export const Header = ({ boolean }) => {
     "/": false,
     "/gallery": false,
     "/services": false,
+    "/sessions": false,
     "/contacts": false,
   });
 
@@ -76,6 +77,15 @@ export const Header = ({ boolean }) => {
             >
               Услуги
             </Link>
+          </li> 
+          <li>
+            <Link
+              onClick={select}
+              className={selected["/sessions"] ? "selected" : ""}
+              to="/sessions"
+            >
+              Сесии
+            </Link>
           </li>
           <li>
             <Link
@@ -88,7 +98,7 @@ export const Header = ({ boolean }) => {
           </li>
         </ul>
 
-        <div className="number" onClick={copyToClipboard}>
+        <div className="red-button number" onClick={copyToClipboard}>
           0884 686 895{" "}
         </div>
 
