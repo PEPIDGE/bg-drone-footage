@@ -166,13 +166,13 @@ ion-icon#white:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  position: relative;
-  bottom: 0;
+  position: absolute;
+  bottom: auto;
   width: 100%;
 }
 
-.footer.absolute {
-  position: absolute !important;
+.contact-footer {
+  bottom: 0 !important;
 }
 
 .footer__contact {

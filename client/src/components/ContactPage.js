@@ -3,13 +3,14 @@ import "../css-components/App.css";
 import "../css-components/Contacts.css";
 import { Header } from './Header';
 import { FaEnvelope, FaPhone, FaMapMarker, FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
-
+import {Footer} from "./Footer";
 
 export const ContactPage = () => {
     
    const boolean = true;
 
   return (
+    
     <>
     <Header boolean={boolean}/>
     <div className="contact-page">
@@ -47,6 +48,7 @@ export const ContactPage = () => {
         </div>
       </div>
     </div>
+    <Footer boolean={boolean}/>
     </>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "../css-components/App.css";
 import "../css-components/Services.css";
 import { Header } from "./Header";
+import {Footer} from "./Footer";
 
 export const ServicesPage = () => {
   const boolean = true;
@@ -21,7 +22,7 @@ export const ServicesPage = () => {
               </p>
             </div>
             <div className="card">
-              <img src="./photos/wedding-drone.png" />
+              <img src="./photos/wedding-drone.png" className="quality"/>
               <h2>Сватби</h2>
               <p>Ние ще дойдем и ще снимаме ваше събитие</p>
             </div>
@@ -34,7 +35,7 @@ export const ServicesPage = () => {
 
             <div className="content-section second">
               <div className="card">
-                <img src="./photos/drone.jpeg" />
+                <img src="./photos/drone.jpg" className="taller-img"/>
                 <h2>Рекламни продукции</h2>
                 <p>
                   Можем да заснемем въздушни кадри за филми, реклами или
@@ -60,6 +61,8 @@ export const ServicesPage = () => {
           </div>
         </div>
       </div>
+    <Footer/>
+
     </>
   );
 };

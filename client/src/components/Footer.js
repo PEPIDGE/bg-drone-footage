@@ -2,9 +2,9 @@ import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarker, FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-export const Footer = () => {
+export const Footer = ({boolean}) => {
   return (
-    <footer className="footer">
+    <footer className={boolean ? "footer contact-footer" : "footer"}>
       <div className="footer__contact">
         <div className="footer__item">
           <FaEnvelope className="footer__icon" />

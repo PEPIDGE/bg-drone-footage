@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Gallery } from "./Gallery";
 import { Header } from "./Header";
 import React, { useEffect, useState } from "react";
+import {Footer} from "./Footer";
 
 export const HomePage = () => {
   const boolean = false;
@@ -72,6 +73,8 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
+    <Footer />
+
     </>
   );
 };

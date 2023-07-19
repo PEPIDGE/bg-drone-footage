@@ -3,7 +3,7 @@ import "./css-components/App.css";
 import { HomePage } from "./components/HomePage";
 import { Route, Routes } from "react-router";
 import { Gallery } from "./components/Gallery";
-import {Footer} from "./components/Footer";
+
 import { ContactPage } from "./components/ContactPage";
 import { ServicesPage } from "./components/ServicesPage";
 
@@ -18,7 +18,6 @@ function App() {
 
         {/* <Route path="*" element={<Page404 />} /> */}
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }
