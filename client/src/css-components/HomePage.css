@@ -17,7 +17,7 @@ h2 {
   -ms-user-select: none;
   user-select: none;
   color: white;
-  margin: 200px auto;
+  margin: 0% 50% 150px 20%;
   text-align: left;
   width: 550px;
   font-size: 25px;
@@ -133,10 +133,8 @@ h2 {
   margin-bottom: 100px;
 }
 
-@media screen and (768px <= width <= 1300px) {
-  .main-text {
-    margin: 30px 280px 230px 130px !important;
-  }
+@media screen and (768px <= width <= 1800px) {
+  
   .content-section .card {
     height: 400px;
   }
