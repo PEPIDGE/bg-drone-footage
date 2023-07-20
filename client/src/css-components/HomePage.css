@@ -8,8 +8,11 @@ h2 {
   margin-bottom: 20px;
 }
 .container {
-  width: 1540px;
-  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 550px;
+  position: absolute;
   padding: 20px;
 }
 .main-text {
@@ -17,9 +20,8 @@ h2 {
   -ms-user-select: none;
   user-select: none;
   color: white;
-  margin: 0% 50% 150px 20%;
   text-align: left;
-  width: 550px;
+ 
   font-size: 25px;
 }
 
@@ -123,12 +125,6 @@ h2 {
   display: block;
 }
 
-.container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .content-section.second {
   margin-bottom: 100px;
 }
@@ -146,5 +142,15 @@ h2 {
   }
   .content-section .card {
     width: 90%;
+    margin-top: 30%;
   }
+}
+
+@media screen and (max-width: 590px) {
+ .main-text {
+  font-size: 1.25em;
+ }
+ .container {
+  width: 350px;
+ }
 }
