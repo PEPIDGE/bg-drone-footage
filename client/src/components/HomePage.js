@@ -10,7 +10,9 @@ export const HomePage = () => {
 
   return (
     <>
-      <div className="hero">
+    <div className="app">
+
+      <div className="hero homepage">
         <Header boolean={boolean} />
         <div className="container">
           <div className="main-text">
@@ -74,7 +76,7 @@ export const HomePage = () => {
         </div>
       </div>
     <Footer />
-
+    </div>
     </>
   );
 };

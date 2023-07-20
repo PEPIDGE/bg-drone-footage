@@ -10,7 +10,6 @@ import { SessionsPage } from "./components/SessionsPage";
 
 function App() {
   return (
-    <div className="app">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gallery" element={<Gallery />} />
@@ -21,7 +20,6 @@ function App() {
 
         {/* <Route path="*" element={<Page404 />} /> */}
       </Routes>
-    </div>
   );
 }
 

@@ -1,3 +1,6 @@
+.app {
+  background-color: #f7f7f7;
+}
 section {
   margin-bottom: 40px;
 }
@@ -105,15 +108,12 @@ h2 {
 
 .title {
   color: #ea1538;
-  width: 100%;
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 1.5rem;
-  margin: 45px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   background-color: #f7f7f7;
+  white-space: nowrap;
 }
 
 .title::before,
@@ -123,6 +123,13 @@ h2 {
   height: 2px;
   background-color: #ea1538;
   display: block;
+}
+.title::before{
+  margin-right: 18px !important;
+}
+
+.title::after{
+  margin-left: 18px !important;
 }
 
 .content-section.second {
