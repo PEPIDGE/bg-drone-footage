@@ -1,6 +1,7 @@
 import React from "react";
 import "../css-components/App.css";
 import "../css-components/Services.css";
+import "../css-components/Sessions.css";
 import { Header } from "./Header";
 import {Footer} from "./Footer";
 import { useNavigate } from "react-router-dom";
@@ -19,8 +20,8 @@ export const SessionsPage = () => {
       <Header boolean={boolean} />
       <div className="services">
         <h1 className="title">Нашите сесии</h1>
-        <div className="card-container" >
-          <div className="content-section" >
+        <div className="card-container sessions" >
+          <div className="content-section " >
             <div className="card" onClick={navigateToSession.bind(null, 1)}>
               <img src="./photos/DJI_0213.jpg" />
               <h2>Комплекси</h2>
