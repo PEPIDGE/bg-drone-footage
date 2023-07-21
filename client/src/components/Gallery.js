@@ -9,7 +9,7 @@ export const Gallery = () => {
   const boolean = true;
 
   return (
-    <>
+    <div className="gallery-page">
       <Header boolean={boolean} />
       <div className="image-gallery">
         <Link to="#" className="gallery-item">
@@ -135,6 +135,6 @@ export const Gallery = () => {
       </div>
     <Footer/>
 
-    </>
+    </div>
   );
 };

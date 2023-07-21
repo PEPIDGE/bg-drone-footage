@@ -1,3 +1,6 @@
+html {
+  min-height: 100%;
+}
 .content {
   position: relative;
   max-width: 1480px;
@@ -6,6 +9,7 @@
 }
 
 .image-gallery {
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,4 +67,30 @@
   color: #fff;
   text-decoration: none;
   font-size: 14px;
+}
+@media screen and (max-width: 920px) {
+  .gallery-item {
+    width: 200px;
+    height: auto;
+    border-radius: 14px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery-item {
+    width: 110px;
+    height: auto;
+    margin: 6.5px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+  .gallery-item {
+    width: 70px;
+    height: auto;
+    margin: 5px;
+    border-radius: 4px;
+  }
 }
