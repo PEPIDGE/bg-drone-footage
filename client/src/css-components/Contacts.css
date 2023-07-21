@@ -1,6 +1,9 @@
+.contact-page-wrap{
+  min-height: 100vh;
+
+}
 .contact-page {
   display: flex;
-  min-height: 69vh;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -49,4 +52,12 @@ h2 {
 
 p {
   margin: 0;
+}
+
+@media screen and (max-width: 690px) {
+
+  .contact-page{
+    margin-top: 0% !important;
+    margin-bottom: -35% !important;
+  }
 }

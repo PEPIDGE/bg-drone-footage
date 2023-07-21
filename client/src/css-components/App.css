@@ -24,9 +24,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-left: -5%;
+  padding-left: 5%;
+  padding-right: 3%;
+  margin-left: 0%;
 }
 
 .logo {
@@ -244,10 +244,10 @@ ion-icon#white:hover {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1030px) {
   nav {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
   ion-icon {
     font-size: 22px !important;
@@ -280,8 +280,8 @@ ion-icon#white:hover {
 }
 @media (max-width: 952px) {
   nav {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
   ion-icon {
     font-size: 20px;
@@ -315,8 +315,8 @@ ion-icon#white:hover {
 
 @media (max-width: 860px) {
   nav {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   ion-icon {
     font-size: 20px;
@@ -351,8 +351,8 @@ ion-icon#white:hover {
 
 @media (max-width: 768px) {
   nav {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     transform: scale(0.8);
   }
 
