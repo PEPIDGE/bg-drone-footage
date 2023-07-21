@@ -170,6 +170,7 @@ ion-icon#white:hover {
   align-items: center;
   text-align: center;
   position: absolute;
+  font-weight: 750;
   bottom: auto;
   width: 100%;
 }
@@ -209,7 +210,10 @@ ion-icon#white:hover {
   font-size: 20px;
   margin: 0 10px;
 }
-
+.more-info {
+  font-weight: 750;
+  margin: 20px auto 30px auto;
+}
 @media (max-width: 1200px) {
   nav {
     padding-left: 5%;

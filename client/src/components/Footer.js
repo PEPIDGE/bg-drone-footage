@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom';
 export const Footer = ({boolean}) => {
   return (
     <footer className={boolean ? "footer contact-footer" : "footer"}>
+      <div className='more-info'>
+      <p>Сайтът е направен изцяло от мен (собственикът на Bg Drone Footage)</p>
+      <p>За въпроси и услуги, пишете на мейла по-долу</p>
+      </div>
       <div className="footer__contact">
         <div className="footer__item">
           <FaEnvelope className="footer__icon" />

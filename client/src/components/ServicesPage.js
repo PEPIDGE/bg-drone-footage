@@ -16,10 +16,9 @@ export const ServicesPage = () => {
           <div className="content-section">
             <div className="card">
               <img src="./photos/DJI_0213.jpg" />
-              <h2>Комплекси</h2>
+              <h2>Вили</h2>
               <p>
-                Предлагаме снимков и видео материал на вашият движим или
-                недвижим имот
+                Искате да отдавате ваш недвижим имот под наем? Накъде без снимков материал с дрон?
               </p>
             </div>
             <div className="card">
@@ -45,7 +44,7 @@ export const ServicesPage = () => {
               </div>
               <div className="card">
                 <img src="./photos/360drone.jpg" />
-                <h2>360 градусова панорама</h2>
+                <h2>Музикални видеа</h2>
                 <p>Ние предлагаме 360 градусова реалност в снимка </p>
               </div>
               <div className="card">
