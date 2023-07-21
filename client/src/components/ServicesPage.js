@@ -2,7 +2,6 @@ import React from "react";
 import "../css-components/App.css";
 import "../css-components/Services.css";
 import { Header } from "./Header";
-import {Footer} from "./Footer";
 
 export const ServicesPage = () => {
   const boolean = true;
@@ -62,7 +61,6 @@ export const ServicesPage = () => {
           </div>
         </div>
       </div>
-    <Footer/>
 
     </>
   );

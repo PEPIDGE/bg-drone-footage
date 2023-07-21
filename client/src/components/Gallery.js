@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../css-components/HomePage.css";
 import "../css-components/Gallery.css";
-import {Footer} from "./Footer";
 import { Link } from "react-router-dom";
 import { Header } from "./Header";
 
@@ -133,7 +132,6 @@ export const Gallery = () => {
           </div>
         </Link>
       </div>
-    <Footer/>
 
     </div>
   );

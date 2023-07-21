@@ -3,7 +3,6 @@ import "../css-components/App.css";
 import "../css-components/Services.css";
 import "../css-components/Sessions.css";
 import { Header } from "./Header";
-import {Footer} from "./Footer";
 import { useNavigate } from "react-router-dom";
 
 export const SessionsPage = () => {
@@ -45,7 +44,6 @@ export const SessionsPage = () => {
           </div>
         </div>
       </div>
-    <Footer/>
 
     </>
   );
