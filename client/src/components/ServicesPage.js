@@ -14,7 +14,7 @@ export const ServicesPage = () => {
         <div className="card-container">
           <div className="content-section">
             <div className="card">
-              <img src="./photos/DJI_0213.jpg" />
+              <img src="./photos/DJI_0068.jpg" />
               <h2>Вили</h2>
               <p>
                 Искате да отдавате ваш недвижим имот под наем? Накъде без снимков материал с дрон?
