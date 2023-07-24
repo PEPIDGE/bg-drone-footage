@@ -104,7 +104,7 @@ html {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .gallery-item {
     width: 110px;
     height: auto;
@@ -116,7 +116,7 @@ html {
 
 @media screen and (max-width: 390px) {
   .gallery-item {
-    width: 70px;
+    width: 95px;
     height: auto;
     margin: 5px;
     border-radius: 4px;

@@ -1,10 +1,18 @@
 import { Link, useLocation } from "react-router-dom";
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "../css-components/App.css";
 
 import React, { useEffect, useState } from "react";
 
 export const Header = ({ boolean }) => {
-  
+  const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
+	};
   const [messageVisible, setMessageVisible] = useState(false);
   const [selected, setSelected] = useState({
     "/": false,
@@ -48,7 +56,7 @@ export const Header = ({ boolean }) => {
 
   return (
     <>
-      <nav>
+      <nav ref={navRef}>
         <Link to={"/"}><img src="./photos/LOGO.png" alt="logo image" className="logo" /></Link>
         <ul className={boolean ? "black" : ""}>
           <li>
@@ -144,7 +152,17 @@ export const Header = ({ boolean }) => {
             ></ion-icon>
           </Link>
         </div>
+        <button
+					className="nav-btn nav-close-btn"
+					onClick={showNavbar}>
+					<FaTimes />
+				</button>
       </nav>
+      <button
+				className="nav-btn"
+				onClick={showNavbar}>
+				<FaBars />
+			</button>
       {messageVisible && (
         <div className="copy-message-content">
           <span>Text copied to clipboard!</span>
