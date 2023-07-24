@@ -159,7 +159,7 @@ export const Header = ({ boolean }) => {
 				</button>
       </nav>
       <button
-				className="nav-btn"
+      className={boolean ? "black nav-btn" : "white nav-btn"}
 				onClick={showNavbar}>
 				<FaBars />
 			</button>

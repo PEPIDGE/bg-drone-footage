@@ -376,6 +376,12 @@ ion-icon#white:hover {
     font-size: 32px;
     color: white;
   }
+  .black.nav-btn {
+    color: black;
+  }
+  .white.nav-btn {
+    color: white;
+  }
   .logo{  
     margin: 0 auto;
     width: 167px;
@@ -420,6 +426,7 @@ ion-icon#white:hover {
 	}
 
 	nav .nav-close-btn {
+    color: #ffffff;
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
@@ -444,6 +451,9 @@ ion-icon#white:hover {
   ion-icon#black {
     font-size: 32px;
     color: white;
+  }
+  .black.nav-btn {
+    color: black;
   }
   .logo{  
     margin: 0 auto;
@@ -489,6 +499,7 @@ ion-icon#white:hover {
 	}
 
 	nav .nav-close-btn {
+    color: #ffffff;
 		position: absolute;
 		top: 2rem;
 		right: 2rem;

@@ -56,8 +56,31 @@ p {
 
 @media screen and (max-width: 690px) {
 
-  .contact-page{
+  .contact-page-wrap{
     margin-top: 0% !important;
-    margin-bottom: -35% !important;
+    margin-bottom: -50% !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+
+  .contact-page-wrap{
+    margin-top: 0% !important;
+    margin-bottom: -21% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .contact-page-wrap{
+    margin-top: 0% !important;
+    margin-bottom: -36% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+
+  .contact-page-wrap{
+    margin-top: 0% !important;
+    margin-bottom: -73% !important;
   }
 }
