@@ -243,7 +243,21 @@ ion-icon#white:hover {
     font-size: 22px !important;
   }
 }
-
+@media (min-width: 1028px) and (max-width: 1082px) {
+  .number {
+    padding: 11px 28px;
+    font-size: 12px;
+  }
+  ion-icon {
+    font-size: 26px !important;
+  }
+  nav ul li a {
+    font-size: 13px;
+  }
+  .logo {
+    width: 70px;
+  }
+}
 @media (max-width: 1030px) {
   nav {
     padding-left: 4%;
@@ -264,7 +278,7 @@ ion-icon#white:hover {
     font-size: 14px;
   }
   .number:hover {
-    transform: scale(1.3) !important;
+    transform: scale(1.15) !important;
   }
   .card p{
     font-size: 14px !important;
@@ -346,13 +360,21 @@ ion-icon#white:hover {
 	font-size: 2.8rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 965px) {
+  
+  ul.black li a {
+    color: white;
+  }
 	.nav-btn {
 		visibility: visible;
 		opacity: 1;
 	}
   ion-icon {
     font-size: 55px !important;
+  }
+  ion-icon#black {
+    font-size: 32px;
+    color: white;
   }
   .logo{  
     margin: 0 auto;
@@ -389,7 +411,7 @@ ion-icon#white:hover {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: rgb(108, 130, 207);
+		background-color: rgb(85, 136, 153);
 		transition: 1s;
 	}
 
@@ -409,12 +431,19 @@ ion-icon#white:hover {
 }
 
 @media only screen and (max-width: 750px) {
+  ul.black li a {
+    color: white;
+  }
 	.nav-btn {
 		visibility: visible;
 		opacity: 1;
 	}
   ion-icon {
     font-size: 35px !important;
+  }
+  ion-icon#black {
+    font-size: 32px;
+    color: white;
   }
   .logo{  
     margin: 0 auto;
@@ -451,7 +480,7 @@ ion-icon#white:hover {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: rgb(108, 130, 207);
+		background-color: rgb(85, 136, 153);
 		transition: 1s;
 	}
 
@@ -467,6 +496,7 @@ ion-icon#white:hover {
 
 	nav ul li a {
 		font-size: 1.8rem;
+
 	}
 }
 
