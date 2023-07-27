@@ -1,4 +1,4 @@
-.title {
+.title-sessions {
   background-color: white !important;
 }
 html {
@@ -35,7 +35,6 @@ html {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-
 .gallery-overlay {
   position: absolute;
   top: 0;
@@ -52,7 +51,6 @@ html {
   transition: opacity 0.05s;
 }
 
-
 .gallery-overlay p {
   color: #fff;
   font-size: 16px;
@@ -65,12 +63,12 @@ html {
   font-size: 14px;
 }
 
-@media (hover:none){
+@media (hover: none) {
   .gallery-overlay {
     width: auto;
     height: auto;
     left: 50%;
-    top:  15%;
+    top: 15%;
     opacity: 1;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.75);
@@ -81,21 +79,20 @@ html {
     font-size: 12px;
     font-weight: 500;
   }
-  .gallery-item img{
+  .gallery-item img {
     transition: none;
   }
 }
 
-@media (hover:hover){
+@media (hover: hover) {
   .gallery-item:hover img {
     transform: scale(1.1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  
+
   .gallery-item:hover .gallery-overlay {
     opacity: 1;
   }
-
 }
 
 @media screen and (max-width: 920px) {
@@ -115,7 +112,6 @@ html {
     border-radius: 6px;
   }
 }
-
 
 @media screen and (max-width: 390px) {
   .gallery-item {
