@@ -1,12 +1,13 @@
 import React from "react";
 import "./css-components/App.css";
-import { HomePage } from "./components/HomePage";
+import { HomePage } from "./page-components/HomePage";
 import { Route, Routes } from "react-router";
-import { Gallery } from "./components/Gallery";
-import {Footer} from "./components/Footer";
-import { ContactPage } from "./components/ContactPage";
-import { ServicesPage } from "./components/ServicesPage";
-import { SessionsPage } from "./components/SessionsPage";
+import { Gallery } from "./page-components/Gallery";
+import {Footer} from "./page-components/Footer";
+import { ContactPage } from "./page-components/ContactPage";
+import { ServicesPage } from "./page-components/ServicesPage";
+import { SessionsPage } from "./page-components/SessionsPage";
+import { VilaGingerlandiq } from "./page-components/session-components/VilaGingerlandiq";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contacts" element={<ContactPage/>} />
         <Route path="/sessions" element={<SessionsPage/>} />
-        <Route path="/sessions/:id" element={<SessionsPage/>} />
+        <Route path="/sessions/vila-Gingerlandiq" element={<VilaGingerlandiq/>} />
 
         {/* <Route path="*" element={<Page404 />} /> */}
       </Routes>

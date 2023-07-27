@@ -1,3 +1,6 @@
+.title {
+  background-color: white !important;
+}
 html {
   min-height: 100%;
 }

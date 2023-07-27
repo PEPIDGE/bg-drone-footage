@@ -1,3 +1,18 @@
 .card-container.sessions{
     justify-content: flex-start !important ;
 }
+
+.title.title-sessions {
+    margin-top: 0%;
+}
+
+.yt-video-container{
+   display: flex; 
+   justify-content: center;
+   
+   
+}
+#yt-video{
+    width: 420px; 
+    height: 600px;
+}
