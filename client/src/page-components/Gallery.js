@@ -21,62 +21,26 @@ export const Gallery = () => {
       <h1 className="title title-sessions">Какви услуги предлагаме</h1>
 
       <div className="image-gallery">
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0013.jpg" alt="Image 1" />
+        <Link to="/vila-Gingerlandiq" className="gallery-item">
+          <img src="./photos/DJI_0037.JPG" alt="Image 1" />
           <div className="gallery-overlay">
-            <Link to="/link1">Виж повече</Link>
+            <Link to="/sessions/vila-Gingerlandiq">Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0014.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0050.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
+            <Link to="/sessions/vila-Gingerlandiq">Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0016.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0051.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
+            <Link to="/sessions/vila-Gingerlandiq">Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0021.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0025.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0026.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0163.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0222.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0171.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/link2">Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0173.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0254.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/link2">Виж повече</Link>
           </div>
@@ -88,13 +52,49 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0193.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0026.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/link2">Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0194.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0186.jpg" alt="Image 2" />
+          <div className="gallery-overlay">
+            <Link to="/link2">Виж повече</Link>
+          </div>
+        </Link>
+        <Link to="#" className="gallery-item">
+          <img src="./photos/DJI_0212.jpg" alt="Image 2" />
+          <div className="gallery-overlay">
+            <Link to="/link2">Виж повече</Link>
+          </div>
+        </Link>
+        <Link to="#" className="gallery-item">
+          <img src="./photos/DJI_0164.jpg" alt="Image 2" />
+          <div className="gallery-overlay">
+            <Link to="/link2">Виж повече</Link>
+          </div>
+        </Link>
+        <Link to="#" className="gallery-item">
+          <img src="./photos/DJI_0103.jpg" alt="Image 2" />
+          <div className="gallery-overlay">
+            <Link to="/link2">Виж повече</Link>
+          </div>
+        </Link>
+        <Link to="#" className="gallery-item">
+          <img src="./photos/DJI_0220.jpg" alt="Image 2" />
+          <div className="gallery-overlay">
+            <Link to="/link2">Виж повече</Link>
+          </div>
+        </Link>
+        <Link to="#" className="gallery-item">
+          <img src="./photos/DJI_0166.jpg" alt="Image 2" />
+          <div className="gallery-overlay">
+            <Link to="/link2">Виж повече</Link>
+          </div>
+        </Link>
+        <Link to="#" className="gallery-item">
+          <img src="./photos/.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/link2">Виж повече</Link>
           </div>
@@ -124,7 +124,7 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0221.jpg" alt="Image 2" />
+          <img src="./photos/DJI_.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/link2">Виж повече</Link>
           </div>

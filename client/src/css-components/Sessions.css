@@ -1,18 +1,122 @@
-.card-container.sessions{
-    justify-content: flex-start !important ;
+.card-container.sessions {
+  justify-content: flex-start !important ;
 }
 
 .title.title-sessions {
-    margin-top: 0%;
+  margin-top: 0%;
+  background-color: white;
 }
 
-.yt-video-container{
-   display: flex; 
-   justify-content: center;
-   
-   
+.yt-video-container {
+  display: flex;
+  justify-content: center;
 }
-#yt-video{
-    width: 420px; 
-    height: 600px;
+#yt-video {
+  width: 420px;
+  height: 240px;
+  margin: 50px auto;
+}
+
+p.session-paragraph {
+  font-weight: 600;
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+  margin: 5px 0;
+  overflow: hidden;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+h2.sessions {
+  text-align: center;
+  color: #000000;
+  margin-top: 3%;
+}
+
+h2.photos-label {
+  text-align: center;
+  color: #ea1538;
+}
+
+div.border-container {
+  --b: 0.5em;
+  --c: 3em;
+  --r: 2em;
+  position: relative;
+  margin: 3% auto;
+  border: solid var(--b) transparent;
+  padding: 1em;
+  max-width: 23em;
+  font: 1.25em "Josefin Sans", sans-serif;
+}
+div.border-container::before {
+  position: absolute;
+  z-index: -1;
+  inset: calc(-1 * var(--b));
+  border: inherit;
+  border-radius: var(--r);
+  background: linear-gradient(rgb(27, 26, 26), #ea1538, rgb(25, 24, 24))
+    border-box;
+  --corner: conic-gradient(from -90deg at var(--c) var(--c), red 25%, #000 0 0)
+    0 0 / calc(100% - var(--c)) calc(100% - var(--c)) border-box;
+  --inner: conic-gradient(red 0 0) padding-box;
+  -webkit-mask: var(--corner), var(--inner);
+  -webkit-mask-composite: source-out;
+  mask: var(--corner) subtract, var(--inner);
+  content: "";
+}
+
+.contact-link {
+  text-decoration: none !important;
+}
+
+.label-address,
+.address {
+  text-decoration: none !important;
+  color: initial;
+}
+
+@media screen and (max-width: 510px) {
+  h2.sessions {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 1.5%;
+  }
+
+  #yt-video {
+    width: 300px;
+    height: 170px;
+    margin: 25px auto;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .title-sessions-2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .title-sessions-2 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 539px) {
+  .title-sessions-2 {
+    font-size: 11px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title-sessions-2 {
+    font-size: 9.5px;
+    text-align: center;
+  }
 }

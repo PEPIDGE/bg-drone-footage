@@ -23,7 +23,7 @@ export const ServicesPage = () => {
           <div className="card-container">
             <div className="content-section">
               <div className="card">
-                <img src="./photos/wedding-drone.png" className="quality" />
+                <img src="./photos/DJI_0050.jpg" className="quality" />
                 <h2>Вили</h2>
                 <p>
                   Искате да отдавате ваш недвижим имот под наем? Накъде без
@@ -58,7 +58,7 @@ export const ServicesPage = () => {
                   <h2>Дълги видеа</h2>
                   <p>
                     Ние предлагаме дълги видеа по поръчка на различни локации в
-                    природата на България.
+                    България.
                   </p>
                 </div>
                 <div className="card">
