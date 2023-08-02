@@ -34,7 +34,7 @@ export const SessionsPage = () => {
                 Ние направихме въздушни кадри на една прекрасна вила.
               </p>
             </div>
-            <div className="card" onClick={navigateToSession.bind(null, "Plevenska-epopeq")}>
+            <div className="card" onClick={navigateToSession.bind(null, "plevenska-panorama")}>
               <img src="./photos/DJI_0254.jpg" className="taller-image"/>
               <h2>Плевенската епопея</h2>
               <p>Направихме зашеметяващи кадри на Плевенската панорама.</p>
@@ -54,8 +54,9 @@ export const SessionsPage = () => {
   );
 };
 
-//panorama pleven
+//panorama pleven :DONE
 //maika bulgariq
 //motocross
-//vila ivo
+//vila ivo :DONE
 //grivitsa
+//TYLENOVO

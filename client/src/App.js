@@ -8,6 +8,7 @@ import { ContactPage } from "./page-components/ContactPage";
 import { ServicesPage } from "./page-components/ServicesPage";
 import { SessionsPage } from "./page-components/SessionsPage";
 import { VilaGingerlandiq } from "./page-components/session-components/VilaGingerlandiq";
+import { Panorama } from "./page-components/session-components/Panorama";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contacts" element={<ContactPage/>} />
         <Route path="/sessions" element={<SessionsPage/>} />
         <Route path="/sessions/vila-Gingerlandiq" element={<VilaGingerlandiq/>} />
+        <Route path="/sessions/plevenska-panorama" element={<Panorama/>} />
 
         {/* <Route path="*" element={<Page404 />} /> */}
       </Routes>
