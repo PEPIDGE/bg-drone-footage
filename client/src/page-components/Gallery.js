@@ -26,25 +26,25 @@ export const Gallery = () => {
 
       <div className="image-gallery">
         <Link to="/vila-Gingerlandiq" className="gallery-item">
-          <img src="./photos/DJI_0037.JPG" alt="Image 1" />
+          <img src="./photos/DJI_0037.JPG" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/vila-Gingerlandiq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0050.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0050.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/vila-Gingerlandiq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0051.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0051.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/vila-Gingerlandiq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0254.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0254.jpg" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
@@ -62,7 +62,7 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0186.jpg" alt="Image 2" />
+          <img src="./photos/DJI_0186.jpg" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
@@ -80,13 +80,13 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/panorama1.png" alt="Image 2" />
+          <img src="./photos/panorama1.png" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/panorama2.png" alt="Image 2" />
+          <img src="./photos/panorama2.png" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
@@ -98,13 +98,13 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/ezero1.png" alt="Image 2" />
+          <img src="./photos/ezero1.png" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/panorama3.JPG" alt="Image 2" />
+          <img src="./photos/panorama3.JPG" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
