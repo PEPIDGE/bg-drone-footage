@@ -121,7 +121,7 @@ article p {
     margin: 25px auto;
   }
   .border-container-1 {
-    height: 480px !important;
+    height: 500px !important;
   }
 }
 @media screen and (max-width: 1200px) {
