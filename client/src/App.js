@@ -20,10 +20,8 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contacts" element={<ContactPage />} />
         <Route path="/sessions" element={<SessionsPage />} />
-        <Route
-          path="/sessions/vila-Gingerlandiq"
-          element={<VilaGingerlandiq />}
-        />
+        
+        <Route path="/sessions/vila-Gingerlandiq" element={<VilaGingerlandiq />}/>
         <Route path="/sessions/plevenska-panorama" element={<Panorama />} />
         <Route path="/sessions/tylenovo" element={<Tylenovo />} />
 
