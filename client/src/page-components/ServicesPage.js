@@ -23,7 +23,7 @@ export const ServicesPage = () => {
           <div className="card-container">
             <div className="content-section">
               <div className="card">
-                <img src="./photos/DJI_0050.jpg" className="quality" />
+                <img src="./photos/DJI_0050.jpg" className="taller-img" />
                 <h2>Вили</h2>
                 <p>
                   Искате да отдавате ваш недвижим имот под наем? Накъде без
@@ -37,7 +37,7 @@ export const ServicesPage = () => {
               </div>
 
               <div className="card">
-                <img src="./photos/DJI_0222.jpg" />
+                <img src="./photos/hotel.jpg" />
                 <h2>Хотели</h2>
                 <p>
                   Предлагаме снимков и видео материал за вашият недвижим имот.
@@ -46,7 +46,7 @@ export const ServicesPage = () => {
 
               <div className="content-section second">
                 <div className="card">
-                  <img src="./photos/drone.jpg" className="taller-img" />
+                  <img src="./photos/production3.jpg" className="production" />
                   <h2>Рекламни продукции</h2>
                   <p>
                     Можем да заснемем въздушни кадри за филми, реклами или
@@ -54,7 +54,7 @@ export const ServicesPage = () => {
                   </p>
                 </div>
                 <div className="card">
-                  <img src="./photos/360drone.jpg" />
+                  <img src="./photos/regatta.jpg" />
                   <h2>Дълги видеа</h2>
                   <p>
                     Ние предлагаме дълги видеа по поръчка на различни локации в

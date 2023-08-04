@@ -39,7 +39,6 @@ h2.sessions {
   color: #000000;
   margin-top: 3%;
   font-size: 22px !important;
-
 }
 
 h2.photos-label {
@@ -88,6 +87,25 @@ div.border-container::before {
 .address {
   text-decoration: none !important;
   color: initial;
+}
+.tylenovo-paragraph {
+  font-size: 18px;
+}
+
+article {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+article p {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 510px) {
@@ -143,22 +161,6 @@ div.border-container::before {
   }
 }
 
-article {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-article h2 {
-  text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-article p {
-  margin-bottom: 1rem;
-}
-
 @media screen and (max-width: 768px) {
   article {
     font-size: 16px;
@@ -174,8 +176,4 @@ article p {
     display: flex;
     justify-content: space-around;
   }
-}
-
-.tylenovo-paragraph {
-  font-size: 18px;
 }

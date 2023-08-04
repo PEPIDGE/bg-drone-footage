@@ -27,23 +27,32 @@ export const SessionsPage = () => {
         <h1 className="title title-sessions">Нашите сесии</h1>
         <div className="card-container sessions" >
           <div className="content-section " >
-            <div className="card" onClick={navigateToSession.bind(null, "vila-Gingerlandiq")}>
+            <div className="card card-session" onClick={navigateToSession.bind(null, "vila-Gingerlandiq")}>
               <img src="./photos/DJI_0050.jpg" className="taller-image"/>
+             <div className="text-session">
+
               <h2>Вила Гингерландия</h2>
               <p>
                 Ние направихме въздушни кадри на една прекрасна вила.
               </p>
+             </div>
             </div>
-            <div className="card" onClick={navigateToSession.bind(null, "plevenska-panorama")}>
+            <div className="card card-session" onClick={navigateToSession.bind(null, "plevenska-panorama")}>
               <img src="./photos/DJI_0254.jpg" className="taller-image"/>
+             <div className="text-session">
+
               <h2>Плевенската епопея</h2>
               <p>Направихме зашеметяващи кадри на Плевенската панорама.</p>
             </div>
 
-            <div className="card" onClick={navigateToSession.bind(null, "tylenovo")}>
+            </div>
+
+            <div className="card card-session" onClick={navigateToSession.bind(null, "tylenovo")}>
               <img src="./photos/DJI_0095.jpg" />
-              <h2>Тюленово</h2>
+             <div className="text-session">
+             <h2>Тюленово</h2>
               <p>Ние снимахме прекрасните скали около село Тюленово.</p>
+             </div>
             </div>
 
           </div>
@@ -54,9 +63,11 @@ export const SessionsPage = () => {
   );
 };
 
+//vila ivo :DONE
 //panorama pleven :DONE
+//TYLENOVO :DONE
 //maika bulgariq
 //motocross
-//vila ivo :DONE
 //grivitsa
-//TYLENOVO
+//regatta 
+//properties

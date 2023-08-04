@@ -68,7 +68,7 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="./photos/DJI_0212.jpg" alt="Image 2" />
+          <img src="./photos/hotel.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
           </div>
