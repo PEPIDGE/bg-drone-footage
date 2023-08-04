@@ -23,7 +23,7 @@ export const ServicesPage = () => {
           <div className="card-container">
             <div className="content-section">
               <div className="card">
-                <img src="./photos/DJI_0050.jpg" className="taller-img" />
+                <img src="https://i.postimg.cc/wv6XN1f2/DJI-0050.jpg" className="taller-img" />
                 <h2>Вили</h2>
                 <p>
                   Искате да отдавате ваш недвижим имот под наем? Накъде без
@@ -31,13 +31,13 @@ export const ServicesPage = () => {
                 </p>
               </div>
               <div className="card">
-                <img src="./photos/wedding-drone.png" className="quality" />
+                <img src="https://i.postimg.cc/hG8wg7Q1/wedding-drone.png" className="quality" />
                 <h2>Сватби</h2>
                 <p>Ние ще дойдем и ще снимаме Ваше събитие.</p>
               </div>
 
               <div className="card">
-                <img src="./photos/hotel.jpg" />
+                <img src="https://i.postimg.cc/fTrQgXY3/hotel.jpg" />
                 <h2>Хотели</h2>
                 <p>
                   Предлагаме снимков и видео материал за вашият недвижим имот.
@@ -46,7 +46,7 @@ export const ServicesPage = () => {
 
               <div className="content-section second">
                 <div className="card">
-                  <img src="./photos/production3.jpg" className="production" />
+                  <img src="https://i.postimg.cc/vBMJ6vwK/production3.jpg" className="production" />
                   <h2>Рекламни продукции</h2>
                   <p>
                     Можем да заснемем въздушни кадри за филми, реклами или
@@ -54,7 +54,7 @@ export const ServicesPage = () => {
                   </p>
                 </div>
                 <div className="card">
-                  <img src="./photos/regatta.jpg" />
+                  <img src="https://i.postimg.cc/MHpg9KTb/regatta.jpg" />
                   <h2>Дълги видеа</h2>
                   <p>
                     Ние предлагаме дълги видеа по поръчка на различни локации в
@@ -62,7 +62,7 @@ export const ServicesPage = () => {
                   </p>
                 </div>
                 <div className="card">
-                  <img src="./photos/insta.png" className="taller-img" />
+                  <img src="https://i.postimg.cc/Gp0wbC7d/insta.png" className="taller-img" />
                   <h2>
                     Инстаграм видеа <br /> и снимки
                   </h2>

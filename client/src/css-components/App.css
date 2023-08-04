@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/public/photos/banner.jpg");
+    url("https://i.postimg.cc/zXPx1Ftr/banner.jpg");
   background-size: cover;
   background-position: center;
   overflow-y: hidden;

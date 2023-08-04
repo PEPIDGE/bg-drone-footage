@@ -82,7 +82,7 @@ export const Tylenovo = () => {
         <div className="image-gallery">
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/DJI_0105.jpg"
+              src="https://i.postimg.cc/9Fq7rPXV/DJI-0105.jpg"
               title="Скалите в Тюленово"
               alt="Скалите в Тюленово"
               loading="lazy"
@@ -90,7 +90,7 @@ export const Tylenovo = () => {
           </Link>
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/DJI_0142.jpg"
+              src="https://i.postimg.cc/nh491HQP/DJI-0142.jpg"
               title="Скалите в Тюленово"
               alt="Скалите в Тюленово"
               loading="lazy"
@@ -98,7 +98,7 @@ export const Tylenovo = () => {
           </Link>
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/DJI_0164.jpg"
+              src="https://i.postimg.cc/HLW0cJP2/DJI-0164.jpg"
               title="Скалите в Тюленово"
               alt="Скалите в Тюленово"
               loading="lazy"
@@ -106,7 +106,7 @@ export const Tylenovo = () => {
           </Link>
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/DJI_0166.jpg"
+              src="https://i.postimg.cc/d1pGx5QH/DJI-0166.jpg"
               title="Скалите в Тюленово"
               alt="Скалите в Тюленово"
               loading="lazy"

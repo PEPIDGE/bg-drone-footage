@@ -3,13 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { Link, useNavigate } from "react-router-dom";
 import "../../css-components/Contacts.css";
 import {
-  FaEnvelope,
-  FaPhone,
-  FaMapMarker,
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTiktok,
+  FaMapMarker
 } from "react-icons/fa";
 
 export const Panorama = () => {
@@ -93,7 +87,7 @@ export const Panorama = () => {
         <div className="image-gallery">
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/panorama1.png"
+              src="https://i.postimg.cc/pL5MNTBs/panorama1.png"
               title="Плевенска панорама"
               alt="Плевенска панорама"
               loading="lazy"
@@ -101,7 +95,7 @@ export const Panorama = () => {
           </Link>
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/panorama2.png"
+              src="https://i.postimg.cc/HLQGxhR5/panorama2.png"
               title="Плевенска панорама"
               alt="Плевенска панорама"
               loading="lazy"
@@ -109,7 +103,7 @@ export const Panorama = () => {
           </Link>
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/panorama3.jpg"
+              src="https://i.postimg.cc/V6R39bYk/panorama3.jpg"
               title="Плевенска панорама"
               alt="Плевенска панорама"
               loading="lazy"
@@ -117,7 +111,7 @@ export const Panorama = () => {
           </Link>
           <Link to="#" className="gallery-item">
             <img
-              src="/photos/DJI_0254.jpg"
+              src="https://i.postimg.cc/qq26Z05q/DJI-0254.jpg"
               title="Плевенска панорама"
               alt="Плевенска панорама"
               loading="lazy"

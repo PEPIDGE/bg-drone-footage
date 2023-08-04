@@ -38,7 +38,7 @@ export const HomePage = () => {
         <div className="content-section">
           
           <div className="card">
-            <img src="./photos/cardPhoto.jpg"  title="фотография" alt="фотография" loading="lazy"/>
+            <img src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg"  title="фотография" alt="фотография" loading="lazy"/>
             <h2>Фотография</h2>
             <p>
               Ние предлагаме висококачествена фотография с 48 MP сензор 8064 x
@@ -46,20 +46,20 @@ export const HomePage = () => {
             </p>
           </div>
           <div className="card">
-              <img src="./photos/low-price.jpg" title="ниски цени" alt="ниски цени" loading="lazy"/>
+              <img src="https://i.postimg.cc/mDyGd5SR/low-price.jpg" title="ниски цени" alt="ниски цени" loading="lazy"/>
               <h2>Ниски цени</h2>
               <p>Като нова компания, ние предламе конкурентни цени. </p>
             </div>
 
           <div className="card">
-            <img className="quality" src="./photos/cardPhoto.jpg" title="Качество" alt="Качество" loading="lazy"/>
+            <img className="quality" src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg" title="Качество" alt="Качество" loading="lazy"/>
             <h2>Качество</h2>
             <p>4К HDR видеа.</p>
           </div>
 
           <div className="content-section second">
             <div className="card">
-              <img src="./photos/cardPhoto.jpg" title="Видеообработка" alt="Видеообработка" loading="lazy"/>
+              <img src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg" title="Видеообработка" alt="Видеообработка" loading="lazy"/>
               <h2>Видеообработка</h2>
               <p>
                 Ние предлагаме видеообработка на поредица от видеа и снимки в
@@ -67,12 +67,12 @@ export const HomePage = () => {
               </p>
             </div>
             <div className="card">
-            <img className="quality" src="./photos/cardPhoto.jpg" title="време във въздуха" alt="време във въздуха" loading="lazy"/>
+            <img className="quality" src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg" title="време във въздуха" alt="време във въздуха" loading="lazy"/>
             <h2>Времетраене</h2>
             <p>Над 120 минути във въздуха.</p>
           </div>
             <div className="card">
-              <img src="./photos/insta.png" className="taller-img"  title="снимки и видеа за социалните мрежи" alt="снимки и видеа за социалните мрежи" loading="lazy" />
+              <img src="https://i.postimg.cc/Gp0wbC7d/insta.png" className="taller-img"  title="снимки и видеа за социалните мрежи" alt="снимки и видеа за социалните мрежи" loading="lazy" />
               <h2>
                 Вертикални видеа <br /> и снимки
               </h2>

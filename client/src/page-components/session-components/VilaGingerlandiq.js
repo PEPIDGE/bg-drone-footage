@@ -50,16 +50,16 @@ export const VilaGingerlandiq = () => {
 
         <div className="image-gallery">
           <Link to="#" className="gallery-item">
-            <img src="/photos/vilaG1.png" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
+            <img src="https://i.postimg.cc/XNsRpFH2/vilaG1.png" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           </Link>
           <Link to="#" className="gallery-item">
-            <img src="/photos/DJI_0037.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
+            <img src="https://i.postimg.cc/hvNQ2vrH/DJI-0037.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           </Link>
           <Link to="#" className="gallery-item">
-            <img src="/photos/DJI_0051.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
+            <img src="https://i.postimg.cc/BnKBf9PT/DJI-0051.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           </Link>
           <Link to="#" className="gallery-item">
-            <img src="/photos/DJI_0065.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
+            <img src="https://i.postimg.cc/tgD1L2kd/DJI-0065.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           </Link>
         </div>
       </div>

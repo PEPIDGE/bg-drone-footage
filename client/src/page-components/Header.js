@@ -57,7 +57,7 @@ export const Header = ({ boolean }) => {
   return (
     <>
       <nav ref={navRef}>
-        <Link to={"/"}><img src="/photos/LOGO.png" alt="logo image" className="logo" title="лого" loading="lazy"/></Link>
+        <Link to={"/"}><img src="https://i.postimg.cc/kXX7HqZH/LOGO.png" alt="logo image" className="logo" title="лого" loading="lazy"/></Link>
         <ul className={boolean ? "black" : ""}>
           <li>
             <Link

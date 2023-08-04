@@ -28,7 +28,7 @@ export const SessionsPage = () => {
         <div className="card-container sessions" >
           <div className="content-section " >
             <div className="card card-session" onClick={navigateToSession.bind(null, "vila-Gingerlandiq")}>
-              <img src="./photos/DJI_0050.jpg" className="taller-image"/>
+              <img src="https://i.postimg.cc/wv6XN1f2/DJI-0050.jpg" className="taller-image"/>
              <div className="text-session">
 
               <h2>Вила Гингерландия</h2>
@@ -38,7 +38,7 @@ export const SessionsPage = () => {
              </div>
             </div>
             <div className="card card-session" onClick={navigateToSession.bind(null, "plevenska-panorama")}>
-              <img src="./photos/DJI_0254.jpg" className="taller-image"/>
+              <img src="https://i.postimg.cc/qq26Z05q/DJI-0254.jpg" className="taller-image"/>
              <div className="text-session">
 
               <h2>Плевенската епопея</h2>
@@ -48,7 +48,7 @@ export const SessionsPage = () => {
             </div>
 
             <div className="card card-session" onClick={navigateToSession.bind(null, "tylenovo")}>
-              <img src="./photos/DJI_0095.jpg" />
+              <img src="https://i.postimg.cc/jjRwgGHd/DJI-0095.jpg" />
              <div className="text-session">
              <h2>Тюленово</h2>
               <p>Ние снимахме прекрасните скали около село Тюленово.</p>
