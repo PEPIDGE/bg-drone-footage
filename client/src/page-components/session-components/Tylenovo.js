@@ -76,7 +76,7 @@ export const Tylenovo = () => {
         </div>
 
         <h1 className="title title-sessions title-sessions-2">
-          Това са част от снимките, които направихме на скалите в Тюленово.{" "}
+        Снимки, които направихме на скалите в Тюленово.{" "}
         </h1>
 
         <div className="image-gallery">

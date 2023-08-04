@@ -45,7 +45,7 @@ export const VilaGingerlandiq = () => {
         </Link>
         </div>
         <h1 className="title title-sessions title-sessions-2">
-          Това са част от снимките, които направихме за вила Гингерландия.{" "}
+          Снимки, които направихме за вила Гингерландия.{" "}
         </h1>
 
         <div className="image-gallery">

@@ -81,7 +81,7 @@ export const Panorama = () => {
         </div>
 
         <h1 className="title title-sessions title-sessions-2">
-          Това са част от снимките, които направихме за Плевенската панорама.{" "}
+        Снимки, които направихме за Плевенската панорама.{" "}
         </h1>
 
         <div className="image-gallery">
