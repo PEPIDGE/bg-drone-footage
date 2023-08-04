@@ -1,5 +1,3 @@
-
-
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +10,7 @@
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../../public/photos/banner.jpg");
+    url("./public/photos/banner.jpg");
   background-size: cover;
   background-position: center;
   overflow-y: hidden;
@@ -236,10 +234,10 @@ ion-icon#white:hover {
   .number:hover {
     transform: scale(1.15) !important;
   }
-  .card p{
+  .card p {
     font-size: 14px !important;
   }
-  .card h2{
+  .card h2 {
     font-size: 22px !important;
   }
 }
@@ -280,40 +278,36 @@ ion-icon#white:hover {
   .number:hover {
     transform: scale(1.15) !important;
   }
-  .card p{
+  .card p {
     font-size: 14px !important;
   }
-  .card h2{
+  .card h2 {
     font-size: 22px !important;
   }
 }
 @media (max-width: 952px) {
-  
   .number:hover {
     transform: scale(1.3) !important;
   }
-  .card p{
+  .card p {
     font-size: 14px !important;
   }
-  .card h2{
+  .card h2 {
     font-size: 22px !important;
   }
 }
 
 @media (max-width: 860px) {
- 
-
   .number {
     font-size: 15px;
   }
   .number:hover {
     transform: scale(1.15) !important;
-
   }
-  .card p{
+  .card p {
     font-size: 11px !important;
   }
-  .card h2{
+  .card h2 {
     font-size: 19px !important;
   }
 }
@@ -326,7 +320,7 @@ ion-icon#white:hover {
   }
 
   nav ul li {
-    margin: 0 2px ; 
+    margin: 0 2px;
   }
 
   nav ul li a {
@@ -350,25 +344,24 @@ ion-icon#white:hover {
 }
 
 .nav-btn {
-	padding: 3px;
-	cursor: pointer;
-	background: transparent;
-	border: none;
-	outline: none;
-	visibility: hidden;
-	opacity: 0;
-	font-size: 2.8rem;
+  padding: 3px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 2.8rem;
 }
 
 @media only screen and (max-width: 965px) {
-  
   ul.black li a {
     color: white;
   }
-	.nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
+  .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
   ion-icon {
     font-size: 55px !important;
   }
@@ -382,7 +375,7 @@ ion-icon#white:hover {
   .white.nav-btn {
     color: white;
   }
-  .logo{  
+  .logo {
     margin: 0 auto;
     width: 167px;
   }
@@ -397,7 +390,7 @@ ion-icon#white:hover {
     font-size: larger;
     padding: 20px 50px;
   }
-  .social-links-container{
+  .social-links-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -405,46 +398,46 @@ ion-icon#white:hover {
     align-content: center;
     flex-direction: row;
   }
-	 nav {
-		position: fixed;
-		z-index: 999;
-		top: -100vh;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background-color: rgb(85, 136, 153);
-		transition: 1s;
-	}
+  nav {
+    position: fixed;
+    z-index: 999;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: rgb(85, 136, 153);
+    transition: 1s;
+  }
 
-	.responsive_nav {
-		transform: translateY(100vh);
-	}
+  .responsive_nav {
+    transform: translateY(100vh);
+  }
 
-	nav .nav-close-btn {
+  nav .nav-close-btn {
     color: #ffffff;
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-	nav ul li a {
-		font-size: 2.3rem;
-	}
+  nav ul li a {
+    font-size: 2.3rem;
+  }
 }
 
 @media only screen and (max-width: 750px) {
   ul.black li a {
     color: white;
   }
-	.nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
+  .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
   ion-icon {
     font-size: 35px !important;
   }
@@ -455,10 +448,9 @@ ion-icon#white:hover {
   .black.nav-btn {
     color: black;
   }
-  .logo{  
+  .logo {
     margin: 0 auto;
     width: 115px;
-
   }
   ul {
     align-items: center;
@@ -470,7 +462,7 @@ ion-icon#white:hover {
     margin: 0 auto !important;
     font-size: medium;
   }
-  .social-links-container{
+  .social-links-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -478,36 +470,34 @@ ion-icon#white:hover {
     align-content: center;
     flex-direction: row;
   }
-	 nav {
-		position: fixed;
-		z-index: 999;
-		top: -100vh;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column !important;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background-color: rgb(85, 136, 153);
-		transition: 1s;
-	}
+  nav {
+    position: fixed;
+    z-index: 999;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: rgb(85, 136, 153);
+    transition: 1s;
+  }
 
-	.responsive_nav {
-		transform: translateY(100vh);
-	}
+  .responsive_nav {
+    transform: translateY(100vh);
+  }
 
-	nav .nav-close-btn {
+  nav .nav-close-btn {
     color: #ffffff;
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-	nav ul li a {
-		font-size: 1.8rem;
-
-	}
+  nav ul li a {
+    font-size: 1.8rem;
+  }
 }
-
