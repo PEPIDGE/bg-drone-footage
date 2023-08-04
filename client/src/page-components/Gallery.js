@@ -25,7 +25,7 @@ export const Gallery = () => {
       <h1 className="title title-sessions">Галерия</h1>
 
       <div className="image-gallery">
-        <Link to="/vila-Gingerlandiq" className="gallery-item">
+        <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/hvNQ2vrH/DJI-0037.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/vila-Gingerlandiq" onClick={handleLinkClick}>Виж повече</Link>
@@ -52,13 +52,13 @@ export const Gallery = () => {
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/hvmVWVfS/DJI-0226.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/PrqScRMy/DJI-0026.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
@@ -70,13 +70,13 @@ export const Gallery = () => {
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/fTrQgXY3/hotel.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/HLW0cJP2/DJI-0164.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
@@ -94,7 +94,7 @@ export const Gallery = () => {
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/d1pGx5QH/DJI-0166.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
@@ -112,79 +112,79 @@ export const Gallery = () => {
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/433t4Dm2/DJI-0234.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2"  onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404"  onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/KvZYynKJ/DJI-0320.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/nzCv2yx9/DJI-0213.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/9Fq7rPXV/DJI-0105.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/bv6xQz7j/DJI-0193.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/nzyQkMTN/DJI-0271.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/Wb6JGNZf/DJI-0275.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/qv1hF1js/DJI-0282.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/NjnGTSdz/DJI-0310.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/YSmrxRVq/DJI-0341.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/dQ9qnLWd/DJI-0344.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/Dyj7kR3w/DJI-0345.jpg" alt="Image 2" />
           <div className="gallery-overlay">
-            <Link to="/link2" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         

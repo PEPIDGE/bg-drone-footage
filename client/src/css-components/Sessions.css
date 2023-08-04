@@ -123,6 +123,12 @@ article p {
   .border-container-1 {
     height: 500px !important;
   }
+  .border-container-2 {
+    height: 550px !important;
+  }
+  .border-container-tylenovo-2 {
+    height: 670px !important;
+  }
 }
 @media screen and (max-width: 1200px) {
   .title-sessions-2 {

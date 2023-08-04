@@ -49,7 +49,7 @@ export const Tylenovo = () => {
             </Link>
           </div>
 
-          <div className="border-container border-container-2">
+          <div className="border-container border-container-2 border-container-tylenovo-2">
             <article>
               <h2>Кратка информация за Тюленово</h2>
               <ul>
