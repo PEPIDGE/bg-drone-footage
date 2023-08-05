@@ -20,7 +20,6 @@ export const Footer = () => {
         </div>
         <div className="footer__item">
           <FaMapMarker className="footer__icon" />
-          
           <Link className="footer__link" to="https://www.google.com/maps/place/Varna/" >Varna, Bulgaria</Link>
         </div>
       </div>

@@ -110,11 +110,12 @@ article p {
 }
 
 .red-button.show-more {
-  text-decoration: none;
+  text-decoration: none !important;
+  margin: 0px auto 0px !important;
 }
 
 .show-more-wrap {
-  margin-top: 16%;
+  margin: 50px auto 0px !important;
 }
 
 .card-session {
@@ -178,7 +179,8 @@ article p {
     text-align: center;
     white-space: pre-line;
   }
-  .label-address, .address {
+  .label-address,
+  .address {
     font-size: 16px;
   }
 }
