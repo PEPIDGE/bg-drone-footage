@@ -1,4 +1,4 @@
-.services * {
+.services *:not(a) {
   background-color: white !important;
 }
 .taller-img {

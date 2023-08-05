@@ -108,6 +108,18 @@ article p {
   margin-bottom: 1rem;
 }
 
+.red-button.show-more {
+  text-decoration: none;
+}
+
+.show-more-wrap {
+  margin-top: 16%;
+}
+
+.card-session {
+  height: 500px !important;
+}
+
 @media screen and (max-width: 510px) {
   h2.sessions {
     font-size: 17px;

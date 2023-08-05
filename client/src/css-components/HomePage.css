@@ -143,7 +143,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 896px) {
   .content-section {
     flex-direction: column;
     margin-top: 20px;
@@ -152,6 +152,7 @@ h2 {
     margin: 0 auto !important;
   }
   .content-section .card {
+    height:auto;
     width: 90%;
     margin: 15% auto !important;
   }
