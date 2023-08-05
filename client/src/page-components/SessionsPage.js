@@ -70,14 +70,14 @@ export const SessionsPage = () => {
 //vila ivo :DONE
 //panorama pleven :DONE
 //TYLENOVO :DONE
+// цена по договаряне : DONE
+//!!! have to add show more text on the cards: DONE
 //maika bulgariq
 //motocross
 //grivitsa
 //regatta 
 //properties
-//!!! have to add show more text on the cards
 //!!! upgrade the gallery for mobile devices
 //!!! add 404 error page
 //!!! add no session crated yet page
 // add an example video in the homepage
-// цена по договаряне

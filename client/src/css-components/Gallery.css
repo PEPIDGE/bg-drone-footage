@@ -65,26 +65,6 @@ html {
   font-size: 14px;
 }
 
-@media (hover: none) {
-  .gallery-overlay {
-    width: auto;
-    height: auto;
-    left: 50%;
-    top: 15%;
-    opacity: 1;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 2.5px;
-    white-space: nowrap;
-  }
-  .gallery-overlay a {
-    font-size: 12px;
-    font-weight: 500;
-  }
-  .gallery-item img {
-    transition: none;
-  }
-}
 
 @media (hover: hover) {
   .gallery-item:hover img {

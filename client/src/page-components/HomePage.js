@@ -38,7 +38,7 @@ export const HomePage = () => {
         <div className="content-section">
           
           <div className="card">
-            <img src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg"  title="фотография" alt="фотография" loading="lazy"/>
+            <img src="https://i.postimg.cc/MHpg9KTb/regatta.jpg"  title="фотография" alt="фотография" loading="lazy"/>
             <h2>Фотография</h2>
             <p>
               Ние предлагаме висококачествена фотография.
@@ -51,14 +51,14 @@ export const HomePage = () => {
             </div>
 
           <div className="card">
-            <img className="quality" src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg" title="Качество" alt="Качество" loading="lazy"/>
+            <img className="quality" src="https://i.postimg.cc/MHpg9KTb/regatta.jpg" title="Качество" alt="Качество" loading="lazy"/>
             <h2>Качество</h2>
             <p>4К HDR видеа.</p>
           </div>
 
           <div className="content-section second">
             <div className="card">
-              <img src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg" title="Видеообработка" alt="Видеообработка" loading="lazy"/>
+              <img src="https://i.postimg.cc/52rZLJXj/editing.jpg" title="Видеообработка" alt="Видеообработка" loading="lazy"/>
               <h2>Видеообработка</h2>
               <p>
                 Ние предлагаме видеообработка на поредица от видеа и снимки в
