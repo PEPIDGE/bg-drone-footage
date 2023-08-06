@@ -3,12 +3,14 @@ import "../css-components/App.css";
 import "../css-components/Services.css";
 import "../css-components/Sessions.css";
 import { Header } from "./Header";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 export const SessionsPage = () => {
   const boolean = true;
-
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
@@ -31,7 +33,7 @@ export const SessionsPage = () => {
                 Ние направихме въздушни кадри на една прекрасна вила.
               </p>
               <div className="show-more-wrap">
-                 <Link to={"vila-Gingerlandiq"} className="red-button show-more">Виж още</Link>
+                 <Link to={"vila-Gingerlandiq"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
               </div>
              </div>
             </div>
@@ -42,7 +44,7 @@ export const SessionsPage = () => {
               <h2>Плевенската епопея</h2>
               <p>Направихме зашеметяващи кадри на Плевенската панорама.</p>
               <div className="show-more-wrap">
-                 <Link to={"plevenska-panorama"} className="red-button show-more">Виж още</Link>
+                 <Link to={"plevenska-panorama"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
               </div>
             </div>
 
@@ -54,7 +56,18 @@ export const SessionsPage = () => {
              <h2>Тюленово</h2>
               <p>Ние снимахме прекрасните скали около село Тюленово.</p>
               <div className="show-more-wrap">
-                 <Link to={"tylenovo"} className="red-button show-more">Виж още</Link>
+                 <Link to={"tylenovo"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
+
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" className="quality" />
+             <div className="text-session">
+             <h2>Майка България</h2>
+              <p>Ние снимахме въздушни кадри над паметника "Майка България".</p>
+              <div className="show-more-wrap">
+                 <Link to={"maika-Bulgariq"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
               </div>
              </div>
             </div>
@@ -73,8 +86,8 @@ export const SessionsPage = () => {
 // цена по договаряне : DONE
 //!!! have to add show more text on the cards: DONE
 //maika bulgariq
-//motocross
 //grivitsa
+//motocross
 //regatta 
 //properties
 //!!! upgrade the gallery for mobile devices

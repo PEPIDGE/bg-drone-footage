@@ -119,6 +119,8 @@ article p {
 }
 
 .card-session {
+  margin-top: 2.5% !important;
+  margin-bottom: 2.5% !important;
   height: 500px !important;
 }
 
@@ -165,11 +167,21 @@ article p {
     text-align: center;
   }
 }
+@media screen and (max-width: 420px) {
+  #yt-video {
+    width: 100%;
+    height: 190px !important;
+  }
+}
 
 @media screen and (max-width: 400px) {
   .title-sessions-2 {
     font-size: 13px;
     text-align: center;
+  }
+  #yt-video {
+    width: 100%;
+    height: 180px !important;
   }
 }
 
@@ -182,6 +194,10 @@ article p {
   .label-address,
   .address {
     font-size: 16px;
+  }
+  #yt-video {
+    width: 100%;
+    height: 165px !important;
   }
 }
 

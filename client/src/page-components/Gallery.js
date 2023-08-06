@@ -158,21 +158,21 @@ export const Gallery = () => {
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" title="Паметник Майка България" alt="Паметник Майка България" loading="lazy" />
           <div className="gallery-overlay">
-            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/maika-Bulgariq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/NjnGTSdz/DJI-0310.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/8kW1y6pG/maika-Bulgariq.jpg" title="Паметник Майка България" alt="Паметник Майка България" loading="lazy" />
           <div className="gallery-overlay">
-            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/maika-Bulgariq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/YSmrxRVq/DJI-0341.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/NjnGTSdz/DJI-0310.jpg" title="Паметник Майка България" alt="Паметник Майка България" loading="lazy" />
           <div className="gallery-overlay">
-            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/maika-Bulgariq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
