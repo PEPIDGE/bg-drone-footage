@@ -95,7 +95,7 @@ export const Panorama = () => {
           </Link>
           <Link to="#" className="gallery-item">
             <img
-              src="https://i.postimg.cc/HLQGxhR5/panorama2.png"
+              src="https://i.postimg.cc/rFLtpJDD/panorama2.png"
               title="Плевенска панорама"
               alt="Плевенска панорама"
               loading="lazy"

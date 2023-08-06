@@ -74,7 +74,7 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/HLQGxhR5/panorama2.png" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
+          <img src="https://i.postimg.cc/rFLtpJDD/panorama2.png" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
