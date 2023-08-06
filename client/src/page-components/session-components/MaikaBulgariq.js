@@ -13,7 +13,7 @@ export const MaikaBulgariq = () => {
           name="description"
           content="Това е кратка статия за снимките от паметника Майка България в град Плевен, България. Downhill с колела по стълби."
         ></meta>
-        <link rel="canonical" href="/maika-bulgariq"></link>
+        <link rel="canonical" href="/maika-Bulgariq"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">

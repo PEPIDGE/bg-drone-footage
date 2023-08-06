@@ -65,13 +65,23 @@ export const SessionsPage = () => {
               <img src="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" className="quality" />
              <div className="text-session">
              <h2>Майка България</h2>
-              <p>Ние снимахме въздушни кадри над паметника "Майка България".</p>
+              <p>Ние направихме въздушни кадри над паметника "Майка България".</p>
               <div className="show-more-wrap">
                  <Link to={"maika-Bulgariq"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
               </div>
              </div>
             </div>
 
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/x8YHSjr1/grivitsa-Thumbnail1.jpg" className="grivitsa" />
+             <div className="text-session">
+             <h2>Хотел Гривица</h2>
+              <p>Ние снимахме хотел Гривица от въздуха.</p>
+              <div className="show-more-wrap">
+                 <Link to={"grivitsa"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
           </div>
         </div>
       </div>

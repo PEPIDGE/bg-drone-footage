@@ -120,7 +120,7 @@ article p {
 
 .card-session {
   margin-top: 2.5% !important;
-  margin-bottom: 2.5% !important;
+  margin-bottom: 3% !important;
   height: 500px !important;
 }
 
@@ -202,6 +202,11 @@ article p {
 }
 
 @media screen and (max-width: 768px) {
+  .card-session {
+    margin-top: 2.5% !important;
+    margin-bottom: 3% !important;
+    height: 450px !important;
+  }
   article {
     font-size: 16px;
   }
@@ -215,5 +220,22 @@ article p {
   .boxes-wrap {
     display: flex;
     justify-content: space-around;
+  }
+}
+
+
+@media screen and (max-width: 290px) {
+  .card-session {
+    margin-top: 2.5% !important;
+    margin-bottom: 3% !important;
+    height: 550px !important;
+  }
+
+  article {
+    font-size: 12px;
+  }
+
+  article h2 {
+    font-size: 1.6rem;
   }
 }

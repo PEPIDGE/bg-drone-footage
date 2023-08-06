@@ -26,12 +26,6 @@ export const Gallery = () => {
 
       <div className="image-gallery">
         <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/hvNQ2vrH/DJI-0037.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
-          <div className="gallery-overlay">
-            <Link to="/sessions/vila-Gingerlandiq" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/wv6XN1f2/DJI-0050.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/vila-Gingerlandiq" onClick={handleLinkClick}>Виж повече</Link>
@@ -51,12 +45,6 @@ export const Gallery = () => {
         </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/hvmVWVfS/DJI-0226.jpg" alt="Image 2" />
-          <div className="gallery-overlay">
-            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
-        </Link>
-        <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/PrqScRMy/DJI-0026.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
@@ -104,6 +92,12 @@ export const Gallery = () => {
           </div>
         </Link>
         <Link to="#" className="gallery-item">
+          <img src="https://i.postimg.cc/YSmrxRVq/DJI-0341.jpg" title="басейн Гривица" alt="басейн Гривица" loading="lazy" />
+          <div className="gallery-overlay">
+            <Link to="/sessions/grivitsa" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+        </Link>{" "}
+        <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/V6R39bYk/panorama3.jpg" title="Плевенска панорама" alt="Плевенска панорама" loading="lazy" />
           <div className="gallery-overlay">
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
@@ -140,6 +134,12 @@ export const Gallery = () => {
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
+          <img src="https://i.postimg.cc/PrqScRMy/DJI-0026.jpg" alt="Image 2" />
+          <div className="gallery-overlay">
+            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+        </Link>
+        <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/nzyQkMTN/DJI-0271.jpg" alt="Image 2" />
           <div className="gallery-overlay">
             <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
@@ -157,6 +157,12 @@ export const Gallery = () => {
             <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
+        <Link to="#" className="gallery-item">
+          <img src="https://i.postimg.cc/hvNQ2vrH/DJI-0037.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
+          <div className="gallery-overlay">
+            <Link to="/sessions/vila-Gingerlandiq" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+        </Link>
         <Link to="#" className="gallery-item">
           <img src="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" title="Паметник Майка България" alt="Паметник Майка България" loading="lazy" />
           <div className="gallery-overlay">
@@ -176,15 +182,15 @@ export const Gallery = () => {
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/dQ9qnLWd/DJI-0344.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/4yF40CYL/DJI-0342.png" title="басейн Гривица" alt="басейн Гривица" loading="lazy" />
           <div className="gallery-overlay">
-            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/grivitsa" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         <Link to="#" className="gallery-item">
-          <img src="https://i.postimg.cc/Dyj7kR3w/DJI-0345.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/Dyj7kR3w/DJI-0345.jpg" title="басейн Гривица" alt="басейн Гривица" loading="lazy" />
           <div className="gallery-overlay">
-            <Link to="/session-404" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/grivitsa" onClick={handleLinkClick}>Виж повече</Link>
           </div>
         </Link>{" "}
         
