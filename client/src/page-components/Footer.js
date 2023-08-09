@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className="footer__contact">
         <div className="footer__item">
           <FaEnvelope className="footer__icon" />
-          <Link to="mailto:bgdronefootage@gmail.com" className="footer__link">bgdronefootage@gmail.com</Link>
+          <Link to="mailto:bgdronefootage.contacts@gmail.com" className="footer__link">bgdronefootage.contacts@gmail.com</Link>
         </div>
         <div className="footer__item">
           <FaPhone className="footer__icon" />

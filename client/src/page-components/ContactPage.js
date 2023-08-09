@@ -2,7 +2,7 @@ import React from 'react';
 import "../css-components/App.css";
 import "../css-components/Contacts.css";
 import { Header } from './Header';
-import { FaEnvelope, FaPhone, FaMapMarker, FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarker} from 'react-icons/fa';
 import { Helmet } from "react-helmet-async";
 
 
@@ -29,7 +29,7 @@ export const ContactPage = () => {
           </div>
           <div className="contact-details">
             <h2>Имейл</h2>
-            <p>bgdronefootage@gmail.com</p>
+            <p>bgdronefootage.contacts@gmail.com</p>
           </div>
         </div>
         <div className="contact-template">
