@@ -42,7 +42,7 @@
 
 /* Show overlay on click for mobile */
 .gallery-item.active .gallery-overlay {
-  display: auto;
+  display: block;
   opacity: 1;
   pointer-events: auto;
 }
