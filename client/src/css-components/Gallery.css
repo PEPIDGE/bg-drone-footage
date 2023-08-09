@@ -76,7 +76,7 @@ html {
   }
 }
 
-@media (pointer: coarse){
+@media (pointer: coarse) {
   .gallery-overlay {
     display: none;
   }
@@ -84,10 +84,10 @@ html {
     display: none;
     pointer-events: none;
   }
-  .gallery-item:hover {
+  .gallery-item:hover .gallery-overlay {
     display: block;
   }
-  .gallery-item:hover .gallery-item a {
+  .gallery-item:hover .gallery-overlay a {
     pointer-events: auto;
   }
 }
