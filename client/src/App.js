@@ -12,6 +12,7 @@ import { Panorama } from "./page-components/session-components/Panorama";
 import { Tylenovo } from "./page-components/session-components/Tylenovo";
 import { MaikaBulgariq } from "./page-components/session-components/MaikaBulgariq";
 import { Grivitsa } from "./page-components/session-components/Grivitsa";
+import { NotFound } from "./page-components/error-components/NotFound";
 
 function App() {
   return (
@@ -29,10 +30,10 @@ function App() {
         <Route path="/sessions/maika-Bulgariq" element={<MaikaBulgariq />} />
         <Route path="/sessions/grivitsa" element={<Grivitsa />} />
 
-        {/* <Route path="*" element={<Page404 />} /> */}
-        {/* E:\website photos if the host deleted the images!!!!!!!!!!  */}
+        <Route path="*" element={<NotFound />} /> 
       </Routes>
-      <Footer></Footer>
+      <Footer/>
+        {/* E:\website photos if the host deleted the images!!!!!!!!!!  */}
     </>
   );
 }

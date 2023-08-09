@@ -1,0 +1,44 @@
+/* NotFound.css */
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ea1538;
+  }
+  
+  .not-found-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .not-found-title {
+    font-size: 6rem;
+    margin-bottom: 16px;
+  }
+  
+  .not-found-message {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+  
+  .not-found-submessage {
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+  
+  .not-found-link {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .not-found-link:hover {
+    background-color: white;
+    color: black;
+  }
+  
