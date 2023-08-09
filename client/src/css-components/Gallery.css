@@ -76,7 +76,7 @@ html {
   }
 }
 
-@media (hover: none) {
+@media (pointer: coarse){
   .gallery-overlay {
     display: none;
   }
