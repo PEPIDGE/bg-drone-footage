@@ -33,9 +33,9 @@ export const Gallery = () => {
        </div>
         
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/KvZYynKJ/DJI-0320.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/KvZYynKJ/DJI-0320.jpg" title="Паметник Майка България" alt="Паметник Майка България" loading="lazy" />
           <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/maika-Bulgariq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>
         <div className={`gallery-item `} >
@@ -45,9 +45,9 @@ export const Gallery = () => {
           </div>
        </div>{" "}
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/d1pGx5QH/DJI-0166.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/d1pGx5QH/DJI-0166.jpg" title="скали Тюленово" alt="скали Тюленово" loading="lazy" />
           <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/tylenovo" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>
        <div className={`gallery-item `} >
@@ -56,12 +56,11 @@ export const Gallery = () => {
             <Link to="/sessions/plevenska-panorama" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>
+
         <div className={`gallery-item `} >
           <img src="https://i.postimg.cc/fTrQgXY3/hotel.jpg" alt="Image 2" />
-          <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
        </div>
+
         <div className={`gallery-item`} >
           <img src="https://i.postimg.cc/wv6XN1f2/DJI-0050.jpg" title="Вила Гингерландия" alt="Вила Гингерландия" loading="lazy" />
           <div className={`gallery-overlay`}>
@@ -69,15 +68,15 @@ export const Gallery = () => {
           </div>
        </div>
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/HLW0cJP2/DJI-0164.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/HLW0cJP2/DJI-0164.jpg" title="скали Тюленово" alt="скали Тюленово" loading="lazy"  />
           <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/tylenovo" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/9Fq7rPXV/DJI-0105.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/9Fq7rPXV/DJI-0105.jpg" title="скали Тюленово" alt="скали Тюленово" loading="lazy"  />
           <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/tylenovo" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>
         <div className={`gallery-item `} >
@@ -117,51 +116,43 @@ export const Gallery = () => {
           </div>
        </div>
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/433t4Dm2/DJI-0234.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/433t4Dm2/DJI-0234.jpg" title="Плевен" alt="Плевен" loading="lazy" />
           <div className={`gallery-overlay`}>
-            <Link to="#"  onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/maika-Bulgariq"  onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>
+
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/hvmVWVfS/DJI-0226.jpg" alt="Image 2" />
-          <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
+          <img src="https://i.postimg.cc/hvmVWVfS/DJI-0226.jpg" title="имоти/комплекси" alt="имоти/комплекси" loading="lazy" />
+       </div>
+
+        <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/nzCv2yx9/DJI-0213.jpg" title="имоти/комплекси" alt="имоти/комплекси" loading="lazy" />
+       </div>
+
+        <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/bv6xQz7j/DJI-0193.jpg" alt="Мост Виница" title="Мост Виница" loading="lazy" />
+       </div>{" "}
+
+        <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/PrqScRMy/DJI-0026.jpg" title="имоти/комплекси" alt="имоти/комплекси" loading="lazy" />
        </div>
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/nzCv2yx9/DJI-0213.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/nzyQkMTN/DJI-0271.jpg" title="Балканче мотокрос 2023" alt="Балканче мотокрос 2023" loading="lazy" />
           <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
-       </div>
-        <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/bv6xQz7j/DJI-0193.jpg" alt="Image 2" />
-          <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/motocross" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>{" "}
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/PrqScRMy/DJI-0026.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/Wb6JGNZf/DJI-0275.jpg" title="Балканче мотокрос 2023" alt="Балканче мотокрос 2023" loading="lazy"  />
           <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
-       </div>
-        <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/nzyQkMTN/DJI-0271.jpg" alt="Image 2" />
-          <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/motocross" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>{" "}
         <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/Wb6JGNZf/DJI-0275.jpg" alt="Image 2" />
+          <img src="https://i.postimg.cc/qv1hF1js/DJI-0282.jpg" title="Балканче мотокрос 2023" alt="Балканче мотокрос 2023" loading="lazy"  />
           <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
-       </div>{" "}
-        <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/qv1hF1js/DJI-0282.jpg" alt="Image 2" />
-          <div className={`gallery-overlay`}>
-            <Link to="#" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/motocross" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>{" "}
         <div className={`gallery-item `} >

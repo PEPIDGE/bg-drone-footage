@@ -38,7 +38,7 @@ export const SessionsPage = () => {
              </div>
             </div>
             <div className="card card-session">
-              <img src="https://i.postimg.cc/qq26Z05q/DJI-0254.jpg" className="quality"/>
+              <img src="https://i.postimg.cc/pL5MNTBs/panorama1.png" className="quality"/>
              <div className="text-session">
 
               <h2>Плевенската епопея</h2>

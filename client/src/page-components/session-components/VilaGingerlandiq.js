@@ -2,7 +2,7 @@ import { Header } from "../Header";
 import { Helmet } from "react-helmet-async";
 import { Link, useNavigate } from "react-router-dom";
 import "../../css-components/Contacts.css";
-import { FaEnvelope, FaPhone, FaMapMarker, FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { FaMapMarker} from 'react-icons/fa';
 
 export const VilaGingerlandiq = () => {
   
@@ -12,8 +12,22 @@ export const VilaGingerlandiq = () => {
         <title>Вила Гингерландия</title>
         <meta
           name="description"
-          content="Това е кратка статия за снимките на вила Гингерландия"
+          content="Това е кратка статия за снимките на вила Гингерландия."
         ></meta>
+
+        <meta property="og:title" content="Вила Гингерландия" />
+        <meta property="og:description" content="Това е кратка статия за снимките на вила Гингерландия." />
+        <meta property="og:image" content="https://i.postimg.cc/BnKBf9PT/DJI-0051.jpg" />
+        <meta property="og:url" content="https://bg-drone-footage.vercel.app/sessions/vila-Gingerlandiq" />
+        <meta property="og:type" content="article" />
+        
+        <meta name="twitter:title" content="Вила Гингерландия" />
+        <meta name="twitter:description" content="Това е кратка статия за снимките на вила Гингерландия." />
+        <meta name="twitter:image" content="https://i.postimg.cc/BnKBf9PT/DJI-0051.jpg" />
+        <meta name="twitter:card" content="https://i.postimg.cc/BnKBf9PT/DJI-0051.jpg" />
+        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/vila-Gingerlandiq" />
+
+
         <link rel="canonical" href="/vila-Gingerlandiq"></link>
       </Helmet>
       <Header boolean={true} />

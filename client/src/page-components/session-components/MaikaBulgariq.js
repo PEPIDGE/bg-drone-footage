@@ -13,6 +13,19 @@ export const MaikaBulgariq = () => {
           name="description"
           content="Това е кратка статия за снимките от паметника Майка България в град Плевен, България. Downhill с колела по стълби."
         ></meta>
+
+        <meta property="og:title" content="Майка България" />
+        <meta property="og:description" content="Това е кратка статия за снимките от паметника Майка България в град Плевен, България." />
+        <meta property="og:image" content="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" />
+        <meta property="og:url" content="https://bg-drone-footage.vercel.app/sessions/maika-Bulgariq" />
+        <meta property="og:type" content="article" />
+        
+        <meta name="twitter:title" content="Майка България" />
+        <meta name="twitter:description" content="Това е кратка статия за снимките от паметника Майка България в град Плевен, България." />
+        <meta name="twitter:image" content="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" />
+        <meta name="twitter:card" content="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" />
+        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/maika-Bulgariq" />
+
         <link rel="canonical" href="/maika-Bulgariq"></link>
       </Helmet>
       <Header boolean={true} />
