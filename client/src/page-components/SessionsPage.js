@@ -82,6 +82,18 @@ export const SessionsPage = () => {
               </div>
              </div>
             </div>
+
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/FzpffWFb/motocross-Thumbnail.jpg" className="grivitsa" />
+             <div className="text-session">
+             <h2>Балканче Крос 2023</h2>
+              <p>Ние заснехме това уникално събитие от въздуха.</p>
+              <div className="show-more-wrap">
+                 <Link to={"motocross"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -94,13 +106,9 @@ export const SessionsPage = () => {
 //panorama pleven :DONE
 //TYLENOVO :DONE
 // цена по договаряне : DONE
+//grivitsa :DONE
+//maika bulgariq : DONE
+//!!! add 404 error page : done
+//motocross : done
 //!!! have to add show more text on the cards: DONE
-//maika bulgariq
-//grivitsa
-//motocross
-//regatta 
-//properties
-//!!! upgrade the gallery for mobile devices
-//!!! add 404 error page
 //!!! add no session crated yet page
-// add an example video in the homepage
