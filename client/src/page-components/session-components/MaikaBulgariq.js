@@ -26,7 +26,7 @@ export const MaikaBulgariq = () => {
         <meta name="twitter:card" content="https://i.postimg.cc/W1Yz8h1S/DJI-0285.jpg" />
         <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/maika-Bulgariq" />
 
-        <link rel="canonical" href="/maika-Bulgariq"></link>
+        <link rel="canonical" href="/sessions/maika-Bulgariq"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">

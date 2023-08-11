@@ -28,7 +28,7 @@ export const Panorama = () => {
         <meta name="twitter:card" content="https://i.postimg.cc/pL5MNTBs/panorama1.png" />
         <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/plevenska-panorama" />
 
-        <link rel="canonical" href="/plevenska-panorama"></link>
+        <link rel="canonical" href="/sessions/plevenska-panorama"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">

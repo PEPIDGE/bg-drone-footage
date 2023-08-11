@@ -25,7 +25,7 @@ export const Grivitsa = () => {
         <meta name="twitter:card" content="https://i.postimg.cc/FzpffWFb/motocross-Thumbnail.jpg" />
         <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/grivitsa" />
 
-        <link rel="canonical" href="/grivitsa"></link>
+        <link rel="canonical" href="/sessions/grivitsa"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">

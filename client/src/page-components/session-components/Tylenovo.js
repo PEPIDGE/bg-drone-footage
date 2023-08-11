@@ -26,7 +26,7 @@ export const Tylenovo = () => {
         <meta name="twitter:card" content="https://i.postimg.cc/jjRwgGHd/DJI-0095.jpg" />
         <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/tylenovo" />
 
-        <link rel="canonical" href="/tylenovo"></link>
+        <link rel="canonical" href="/sessions/tylenovo"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">

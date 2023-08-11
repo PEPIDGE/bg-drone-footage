@@ -26,7 +26,7 @@ export const Motocross = () => {
         <meta name="twitter:card" content="https://i.postimg.cc/FzpffWFb/motocross-Thumbnail.jpg" />
         <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/motocross" />
 
-        <link rel="canonical" href="/motocross"></link>
+        <link rel="canonical" href="/sessions/motocross"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">

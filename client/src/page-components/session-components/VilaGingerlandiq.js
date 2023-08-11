@@ -28,7 +28,7 @@ export const VilaGingerlandiq = () => {
         <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/vila-Gingerlandiq" />
 
 
-        <link rel="canonical" href="/vila-Gingerlandiq"></link>
+        <link rel="canonical" href="/sessions/vila-Gingerlandiq"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">

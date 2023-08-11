@@ -18,6 +18,19 @@ export const Gallery = () => {
       <title>Галерия</title>
       <meta name="description" content="Това е галерията на нашият уебсайт, в която показваме разнообразни снимки от нашите сесии."></meta>
       <link rel="canonical" href="/gallery"></link>
+
+      <meta property="og:title" content="Галерия" />
+        <meta property="og:description" content="Това е галерията на нашият уебсайт, в която показваме разнообразни снимки от нашите сесии." />
+        <meta property="og:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
+        <meta property="og:url" content="https://bg-drone-footage.vercel.app/gallery" />
+        <meta property="og:type" content="website" />
+        
+        <meta name="twitter:title" content="Галерия" />
+        <meta name="twitter:description" content="Това е галерията на нашият уебсайт, в която показваме разнообразни снимки от нашите сесии." />
+        <meta name="twitter:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
+        <meta name="twitter:card" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
+        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/gallery" />
+
     </Helmet>
 
     <div className="gallery-page">
