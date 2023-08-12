@@ -9,13 +9,12 @@ import { Analytics } from "@vercel/analytics/react";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
- <>
-  <HelmetProvider>
+  <>
+    <HelmetProvider>
       <BrowserRouter>
         <App />
       </BrowserRouter>
     </HelmetProvider>
-      <Analytics/>
   </>
 );
 
