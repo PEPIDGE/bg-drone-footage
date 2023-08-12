@@ -17,14 +17,14 @@ export const Tylenovo = () => {
         <meta property="og:title" content="Скалите в Тюленово" />
         <meta property="og:description" content="Това е кратка статия за снимките от Скалите в Тюленово." />
         <meta property="og:image" content="https://i.postimg.cc/jjRwgGHd/DJI-0095.jpg" />
-        <meta property="og:url" content="https://bg-drone-footage.vercel.app/sessions/tylenovo" />
+        <meta property="og:url" content="https://bgdronefootage.com/sessions/tylenovo" />
         <meta property="og:type" content="article" />
         
         <meta name="twitter:title" content="Скалите в Тюленово" />
         <meta name="twitter:description" content="Това е кратка статия за снимките от Скалите в Тюленово." />
         <meta name="twitter:image" content="https://i.postimg.cc/jjRwgGHd/DJI-0095.jpg" />
         <meta name="twitter:card" content="https://i.postimg.cc/jjRwgGHd/DJI-0095.jpg" />
-        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/tylenovo" />
+        <meta name="twitter:url" content="https://bgdronefootage.com/sessions/tylenovo" />
 
         <link rel="canonical" href="/sessions/tylenovo"></link>
       </Helmet>

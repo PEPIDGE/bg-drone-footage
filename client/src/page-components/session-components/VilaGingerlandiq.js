@@ -18,14 +18,14 @@ export const VilaGingerlandiq = () => {
         <meta property="og:title" content="Вила Гингерландия" />
         <meta property="og:description" content="Това е кратка статия за снимките на вила Гингерландия." />
         <meta property="og:image" content="https://i.postimg.cc/BnKBf9PT/DJI-0051.jpg" />
-        <meta property="og:url" content="https://bg-drone-footage.vercel.app/sessions/vila-Gingerlandiq" />
+        <meta property="og:url" content="https://bgdronefootage.com/sessions/vila-Gingerlandiq" />
         <meta property="og:type" content="article" />
         
         <meta name="twitter:title" content="Вила Гингерландия" />
         <meta name="twitter:description" content="Това е кратка статия за снимките на вила Гингерландия." />
         <meta name="twitter:image" content="https://i.postimg.cc/BnKBf9PT/DJI-0051.jpg" />
         <meta name="twitter:card" content="https://i.postimg.cc/BnKBf9PT/DJI-0051.jpg" />
-        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/vila-Gingerlandiq" />
+        <meta name="twitter:url" content="https://bgdronefootage.com/sessions/vila-Gingerlandiq" />
 
 
         <link rel="canonical" href="/sessions/vila-Gingerlandiq"></link>

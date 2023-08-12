@@ -13,19 +13,19 @@ export const HomePage = () => {
     <Helmet>
       <title>Главна страница</title>
       <meta name="description" content="Това е главната страница на нашият уебсайт, в който предлагаме услуги с дрон."></meta>
-      <link rel="canonical" href="/"></link>
 
       <meta property="og:title" content="Главна страница" />
         <meta property="og:description" content="Това е главната страница на нашият уебсайт, в който предлагаме услуги с дрон." />
         <meta property="og:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
-        <meta property="og:url" content="https://bg-drone-footage.vercel.app/" />
+        <meta property="og:url" content="https://bgdronefootage.com/" />
         <meta property="og:type" content="website" />
         
         <meta name="twitter:title" content="Главна страница" />
         <meta name="twitter:description" content="Това е главната страница на нашият уебсайт, в който предлагаме услуги с дрон." />
         <meta name="twitter:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
         <meta name="twitter:card" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
-        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/" />
+        <meta name="twitter:url" content="https://bgdronefootage.com/" />
+      <link rel="canonical" href="/"></link>
 
     </Helmet>
     <div className="app">

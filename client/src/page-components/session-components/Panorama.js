@@ -19,14 +19,14 @@ export const Panorama = () => {
         <meta property="og:title" content="Плевенска Панорама" />
         <meta property="og:description" content="Това е кратка статия за снимките от Плевенската Панорама Епопея." />
         <meta property="og:image" content="https://i.postimg.cc/pL5MNTBs/panorama1.png" />
-        <meta property="og:url" content="https://bg-drone-footage.vercel.app/sessions/plevenska-panorama" />
+        <meta property="og:url" content="https://bgdronefootage.com/sessions/plevenska-panorama" />
         <meta property="og:type" content="article" />
         
         <meta name="twitter:title" content="Плевенска Панорама" />
         <meta name="twitter:description" content="Това е кратка статия за снимките от Плевенската Панорама Епопея." />
         <meta name="twitter:image" content="https://i.postimg.cc/pL5MNTBs/panorama1.png" />
         <meta name="twitter:card" content="https://i.postimg.cc/pL5MNTBs/panorama1.png" />
-        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions/plevenska-panorama" />
+        <meta name="twitter:url" content="https://bgdronefootage.com/sessions/plevenska-panorama" />
 
         <link rel="canonical" href="/sessions/plevenska-panorama"></link>
       </Helmet>

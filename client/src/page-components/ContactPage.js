@@ -20,14 +20,14 @@ export const ContactPage = () => {
       <meta property="og:title" content="Контакти" />
         <meta property="og:description" content="Това са контактите ни, как да ни намерите, социални мрежи, местоположение или локация, емайл, електронна поща, телефонен номер." />
         <meta property="og:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
-        <meta property="og:url" content="https://bg-drone-footage.vercel.app/contacts" />
+        <meta property="og:url" content="https://bgdronefootage.com/contacts" />
         <meta property="og:type" content="website" />
         
         <meta name="twitter:title" content="Контакти" />
         <meta name="twitter:description" content="Това са контактите ни, как да ни намерите, социални мрежи, местоположение или локация, емайл, електронна поща, телефонен номер." />
         <meta name="twitter:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
         <meta name="twitter:card" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
-        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/contacts" />
+        <meta name="twitter:url" content="https://bgdronefootage.com/contacts" />
 
     </Helmet>
     <div className='contact-page-wrap'>

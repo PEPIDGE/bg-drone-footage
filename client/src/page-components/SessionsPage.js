@@ -21,14 +21,14 @@ export const SessionsPage = () => {
       <meta property="og:title" content="Услуги" />
         <meta property="og:description" content="Тази секция представя всички сесии от снимки в кратки статии, които ние Bg Drone Footage сме направили." />
         <meta property="og:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
-        <meta property="og:url" content="https://bg-drone-footage.vercel.app/sessions" />
+        <meta property="og:url" content="https://bgdronefootage.com/sessions" />
         <meta property="og:type" content="website" />
         
         <meta name="twitter:title" content="Услуги" />
         <meta name="twitter:description" content="Тази секция представя всички сесии от снимки в кратки статии, които ние Bg Drone Footage сме направили." />
         <meta name="twitter:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
         <meta name="twitter:card" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />
-        <meta name="twitter:url" content="https://bg-drone-footage.vercel.app/sessions" />
+        <meta name="twitter:url" content="https://bgdronefootage.com/sessions" />
      
       <link rel="canonical" href="/sessions"></link>
     </Helmet>
