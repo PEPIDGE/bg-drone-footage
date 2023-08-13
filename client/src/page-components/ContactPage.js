@@ -3,7 +3,8 @@ import "../css-components/App.css";
 import "../css-components/Contacts.css";
 import { Header } from './Header';
 import { FaEnvelope, FaPhone, FaMapMarker} from 'react-icons/fa';
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
+
 
 
 export const ContactPage = () => {

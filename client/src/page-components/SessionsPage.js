@@ -4,7 +4,8 @@ import "../css-components/Services.css";
 import "../css-components/Sessions.css";
 import { Header } from "./Header";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
+
 
 export const SessionsPage = () => {
   const boolean = true;

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { Gallery } from "./Gallery";
 import { Header } from "./Header";
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
+
 
 export const HomePage = () => {
   const boolean = false;
