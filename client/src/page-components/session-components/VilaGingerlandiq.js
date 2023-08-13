@@ -29,7 +29,7 @@ export const VilaGingerlandiq = () => {
         <meta name="twitter:url" content="https://bgdronefootage.com/sessions/vila-Gingerlandiq" />
 
 
-        <link rel="canonical" href="/sessions/vila-Gingerlandiq"></link>
+        <link rel="canonical" href="https://bgdronefootage.com/sessions/vila-Gingerlandiq"></link>
       </Helmet>
       <Header boolean={true} />
       <div className="flex-wrap">
