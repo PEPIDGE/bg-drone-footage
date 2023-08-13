@@ -2,7 +2,8 @@ import React from "react";
 import "../css-components/App.css";
 import "../css-components/Services.css";
 import { Header } from "./Header";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
+
 
 
 export const ServicesPage = () => {

@@ -3,7 +3,8 @@ import "../css-components/HomePage.css";
 import "../css-components/Gallery.css";
 import { Link } from "react-router-dom";
 import { Header } from "./Header";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
+
 
 export const Gallery = () => {
   const boolean = true;

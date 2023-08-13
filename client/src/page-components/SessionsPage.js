@@ -4,7 +4,7 @@ import "../css-components/Services.css";
 import "../css-components/Sessions.css";
 import { Header } from "./Header";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 
 export const SessionsPage = () => {

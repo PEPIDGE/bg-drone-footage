@@ -1,5 +1,5 @@
 import { Header } from "../Header";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { Link, useNavigate } from "react-router-dom";
 import "../../css-components/Contacts.css";
 import {
