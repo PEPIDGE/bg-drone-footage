@@ -17,6 +17,8 @@ export const ContactPage = () => {
       <meta name="description" content="Това са контактите ни, как да ни намерите, социални мрежи, местоположение или локация, емайл, електронна поща, телефонен номер."></meta>
       <link rel="canonical" href="/contacts"></link>
 
+      <meta name="keywords" content="Contacts контакти Дрон Услуги Снимки Drone services "/>
+
       <meta property="og:title" content="Контакти" />
         <meta property="og:description" content="Това са контактите ни, как да ни намерите, социални мрежи, местоположение или локация, емайл, електронна поща, телефонен номер." />
         <meta property="og:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />

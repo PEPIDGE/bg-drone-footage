@@ -17,6 +17,7 @@ export const SessionsPage = () => {
     <Helmet>
       <title>Сесии</title>
       <meta name="description" content="Тази секция представя всички сесии в кратки статии, които ние Bg Drone Footage сме направили, свършената работа на всички клиенти, които са полазвали нашите услуги."></meta>
+      <meta name="keywords" content="сесии свършена работа sessions природа България portfolio портфолио Дрон Услуги Снимки Drone services "/>
       
       <meta property="og:title" content="Услуги" />
         <meta property="og:description" content="Тази секция представя всички сесии от снимки в кратки статии, които ние Bg Drone Footage сме направили." />

@@ -14,6 +14,7 @@ export const VilaGingerlandiq = () => {
           name="description"
           content="Това е кратка статия за снимките на вила Гингерландия."
         ></meta>
+        <meta name="keywords" content="вила детски рожден ден Дрон Услуги Снимки Drone services vila real estate property"/>
 
         <meta property="og:title" content="Вила Гингерландия" />
         <meta property="og:description" content="Това е кратка статия за снимките на вила Гингерландия." />

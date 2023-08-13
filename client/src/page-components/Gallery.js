@@ -19,6 +19,8 @@ export const Gallery = () => {
       <meta name="description" content="Това е галерията на нашият уебсайт, в която показваме разнообразни снимки от нашите сесии."></meta>
       <link rel="canonical" href="/gallery"></link>
 
+      <meta name="keywords" content="Галерия Gallery portfolio портфолио Дрон Услуги Снимки Drone services "/>
+
       <meta property="og:title" content="Галерия" />
         <meta property="og:description" content="Това е галерията на нашият уебсайт, в която показваме разнообразни снимки от нашите сесии." />
         <meta property="og:image" content="https://i.postimg.cc/kXX7HqZH/LOGO.png" />

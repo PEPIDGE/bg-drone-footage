@@ -13,6 +13,7 @@ export const Tylenovo = () => {
           name="description"
           content="Това е кратка статия за снимките от Скалите в Тюленово."
         ></meta>
+        <meta name="keywords" content="Тюленово скали Дрон Услуги Снимки Drone services Diving Гмуркане Extreme екстремно"/>
 
         <meta property="og:title" content="Скалите в Тюленово" />
         <meta property="og:description" content="Това е кратка статия за снимките от Скалите в Тюленово." />

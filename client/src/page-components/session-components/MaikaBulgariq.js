@@ -13,6 +13,7 @@ export const MaikaBulgariq = () => {
           name="description"
           content="Това е кратка статия за снимките от паметника Майка България в град Плевен, България. Downhill с колела по стълби."
         ></meta>
+        <meta name="keywords" content="Паметник Дрон Услуги Майка България Снимки Drone services swimming pool"/>
 
         <meta property="og:title" content="Майка България" />
         <meta property="og:description" content="Това е кратка статия за снимките от паметника Майка България в град Плевен, България." />

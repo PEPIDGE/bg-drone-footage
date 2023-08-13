@@ -13,6 +13,7 @@ export const Motocross = () => {
           name="description"
           content="Това е кратка статия за снимките от Балканче мотокрос 2023, село Голяма Желязна."
         ></meta>
+        <meta name="keywords" content="Мотокрос Дрон Услуги Снимки Drone services Motocross Balkanche Балканче"/>
 
         <meta property="og:title" content="Балканче мотокрос 2023" />
         <meta property="og:description" content="Това е кратка статия за снимките от Балканче мотокрос 2023, село Голяма Желязна." />

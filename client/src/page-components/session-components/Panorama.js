@@ -15,7 +15,7 @@ export const Panorama = () => {
           name="description"
           content="Това е кратка статия за снимките от Плевенската Панорама Епопея."
         ></meta>
-
+        <meta name="keywords" content="Pleven Monument Drone Services Плевенска Панорама Дрон Епопея Услуги"/>
         <meta property="og:title" content="Плевенска Панорама" />
         <meta property="og:description" content="Това е кратка статия за снимките от Плевенската Панорама Епопея." />
         <meta property="og:image" content="https://i.postimg.cc/pL5MNTBs/panorama1.png" />

@@ -13,6 +13,8 @@ export const Grivitsa = () => {
           name="description"
           content="Това е кратка статия за снимките от басейна и хотела в Гривица, Плевен."
         ></meta>
+        <meta name="keywords" content="Хотел Дрон Услуги Гривица Басейн Кадри Снимки Drone services swimming pool"/>
+
         <meta property="og:title" content="Хотел Гривица" />
         <meta property="og:description" content="Това е кратка статия за снимките от басейна и хотела в Гривица, Плевен." />
         <meta property="og:image" content="https://i.postimg.cc/FzpffWFb/motocross-Thumbnail.jpg" />

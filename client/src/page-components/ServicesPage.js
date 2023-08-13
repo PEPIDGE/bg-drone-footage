@@ -14,6 +14,7 @@ export const ServicesPage = () => {
           name="description"
           content="Тази секция представя всички услуги, които предлагаме."
         ></meta>
+      <meta name="keywords" content="имоти рожденни дни сватби концерти събития хотели комплекси социални платформи рекламни продукции Дрон Услуги Снимки Drone services "/>
 
         <meta property="og:title" content="Услуги" />
         <meta property="og:description" content="Тази секция представя всички услуги, които предлагаме." />

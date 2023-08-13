@@ -13,6 +13,7 @@ export const HomePage = () => {
     <Helmet>
       <title>Главна страница</title>
       <meta name="description" content="Това е главната страница на нашият уебсайт, в който предлагаме услуги с дрон."></meta>
+      <meta name="keywords" content="природа България portfolio портфолио Дрон Услуги Снимки Drone services "/>
 
       <meta property="og:title" content="Главна страница" />
         <meta property="og:description" content="Това е главната страница на нашият уебсайт, в който предлагаме услуги с дрон." />
