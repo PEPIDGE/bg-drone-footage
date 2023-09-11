@@ -14,6 +14,8 @@ import { MaikaBulgariq } from "./page-components/session-components/MaikaBulgari
 import { Grivitsa } from "./page-components/session-components/Grivitsa";
 import { NotFound } from "./page-components/error-components/NotFound";
 import { Motocross } from "./page-components/session-components/Motocross";
+import { Akvapark } from "./page-components/session-components/Akvapark";
+import { VrachanskiBalkan } from "./page-components/session-components/VrachanskiBalkan";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/sessions/maika-Bulgariq" element={<MaikaBulgariq />} />
         <Route path="/sessions/grivitsa" element={<Grivitsa />} />
         <Route path="/sessions/motocross" element={<Motocross />} />
+        <Route path="/sessions/akvapark" element={<Akvapark />} />
+        <Route path="/sessions/vrachanski-balkan" element={<VrachanskiBalkan />} />
 
         <Route path="*" element={<NotFound />} /> 
       </Routes>

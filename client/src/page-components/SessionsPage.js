@@ -108,7 +108,28 @@ export const SessionsPage = () => {
               </div>
              </div>
             </div>
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/4dhmdmH3/akvapark-thumbnail.png" className="grivitsa" />
+             <div className="text-session">
+             <h2>Аквапарк Несебър</h2>
+              <p>Аквапарк Несебър от погледа на дрон.</p>
+              <div className="show-more-wrap">
+                 <Link to={"akvapark"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/KcQW7MxK/3.png" className="grivitsa" />
+             <div className="text-session">
+             <h2>Врачански Балкан</h2>
+              <p>Прекрасният Врачански Балкан заснет от дрон</p>
+              <div className="show-more-wrap">
+                 <Link to={"vrachanski-balkan"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
             
+
           </div>
         </div>
       </div>

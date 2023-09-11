@@ -159,12 +159,7 @@ export const Gallery = () => {
             <Link to="/sessions/motocross" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>{" "}
-        <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/Wb6JGNZf/DJI-0275.jpg" title="Балканче мотокрос 2023" alt="Балканче мотокрос 2023" loading="lazy"  />
-          <div className={`gallery-overlay`}>
-            <Link to="/sessions/motocross" onClick={handleLinkClick}>Виж повече</Link>
-          </div>
-       </div>{" "}
+       
         <div className={`gallery-item `} >
           <img src="https://i.postimg.cc/qv1hF1js/DJI-0282.jpg" title="Балканче мотокрос 2023" alt="Балканче мотокрос 2023" loading="lazy"  />
           <div className={`gallery-overlay`}>
@@ -195,13 +190,48 @@ export const Gallery = () => {
             <Link to="/sessions/maika-Bulgariq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>{" "}
-        <div className={`gallery-item `} >
-          <img src="https://i.postimg.cc/Dyj7kR3w/DJI-0345.jpg" title="басейн Гривица" alt="басейн Гривица" loading="lazy" />
+       <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/zfvysdJK/DJI-0500-frame-at-0m3s.jpg" title="аквапарк Несебър" alt="аквапарк Несебър" loading="lazy" />
           <div className={`gallery-overlay`}>
-            <Link to="/sessions/grivitsa" onClick={handleLinkClick}>Виж повече</Link>
+            <Link to="/sessions/akvapark" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>{" "}
-        
+        <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/Vk67h8bR/AKVAPARK-d-RONE-frame-at-0m33s.jpg" title="аквапарк Несебър" alt="аквапарк Несебър" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/akvapark" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>{" "}
+       <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/ZKj7jR0n/AKVAPARK-d-RONE-frame-at-1m20s.jpg" title="аквапарк Несебър" alt="аквапарк Несебър" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/akvapark" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>{" "}
+       <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/Fz5Z9TVC/Vrachanski-Balkan-frame-at-1m30s.jpg" title="Врачански Балкан" alt="Врачански Балкан" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/vrachanski-balkan" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>{" "}
+        <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/k4ts30Kt/Vrachanski-Balkan-frame-at-1m6s.jpg" title="Врачански Балкан" alt="Врачански Балкан" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/vrachanski-balkan" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>{" "}
+       <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/sf86LXrg/DJI_0402.jpg" title="Врачански Балкан" alt="Врачански Балкан" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/vrachanski-balkan" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>{" "}
+       <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/2S2qXpfC/VrachanskiBalkan_-_frame_at_2m147s.jpg" title="Врачански Балкан" alt="Врачански Балкан" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/vrachanski-balkan" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>{" "}
       </div>
 
     </div>
