@@ -8,7 +8,7 @@ export const Akvapark = () => {
   return (
     <>
       <Helmet>
-        <title>Майка България</title>
+        <title>Аквапарк Несебър</title>
         <meta
           name="description"
           content="Това е кратка статия за снимките от Аквапарк Несебър"
