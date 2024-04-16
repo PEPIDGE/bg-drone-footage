@@ -4,6 +4,7 @@ import "../css-components/Contacts.css";
 import { Header } from './Header';
 import { FaEnvelope, FaPhone, FaMapMarker} from 'react-icons/fa';
 import { Helmet } from "react-helmet-async";
+import { Link } from 'react-router-dom';
 
 
 
@@ -36,12 +37,14 @@ export const ContactPage = () => {
     <div className='contact-page-wrap'>
     <Header boolean={boolean}/>
     <div className="contact-page">
-      <h1>Пишете ни:</h1>
+      <h1>Потърсете ни:</h1>
       <div className="contact-info">
         <div className="contact-template">
           <div className="contact-icon">
-          <FaEnvelope className="icon"/>
+            <Link to="mailto:bgdronefootage.contacts@gmail.com" style={{ color: 'inherit' }}>
+          <FaEnvelope className="icon" />
             
+            </Link>           
           </div>
           <div className="contact-details">
             <h2>Имейл</h2>
@@ -50,7 +53,9 @@ export const ContactPage = () => {
         </div>
         <div className="contact-template">
           <div className="contact-icon">
+          <Link to="https://www.google.com/maps/place/Varna/" style={{ color: 'inherit' }}  target="_blank">
           <FaMapMarker className="icon" />
+            </Link> 
           </div>
 
           <div className="contact-details">
@@ -58,9 +63,12 @@ export const ContactPage = () => {
             <p>Варна, България</p>
           </div>
         </div>
+        
         <div className="contact-template">
           <div className="contact-icon">
+          <Link to="tel:+359884686895" style={{ color: 'inherit' }}>
           <FaPhone className="icon" />
+            </Link> 
             
           </div>
           <div className="contact-details">

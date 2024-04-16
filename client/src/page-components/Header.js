@@ -38,21 +38,6 @@ export const Header = ({ boolean }) => {
     }));
   };
 
-  const copyToClipboard = () => {
-    const textToCopy = "0884686895";
-
-    navigator.clipboard
-      .writeText(textToCopy)
-      .then(() => {
-        setMessageVisible(true);
-        setTimeout(() => {
-          setMessageVisible(false);
-        }, 2000);
-      })
-      .catch((error) => {
-        console.error("Unable to copy text:", error);
-      });
-  };
 
   return (
     <>
@@ -106,9 +91,9 @@ export const Header = ({ boolean }) => {
           </li>
         </ul>
 
-        <div className="red-button number" onClick={copyToClipboard}>
+        <Link className="red-button number" style={{ textDecoration: 'none' }} to="tel:+359884686895">
           0884 686 895{" "}
-        </div>
+        </Link>
 
         <div className="social-links-container">
           <Link

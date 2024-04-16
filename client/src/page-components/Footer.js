@@ -6,8 +6,8 @@ export const Footer = () => {
   return (
     <footer className={"footer "}>
       <div className='more-info'>
-      <p>Сайтът е направен изцяло от мен (собственикът на Bg Drone Footage)</p>
-      <p>За въпроси и услуги, пишете на мейла по-долу</p>
+      
+      <p>За всякакви въпроси и запитвания, звъннете на телефона по-долу</p>
       </div>
       <div className="footer__contact">
         <div className="footer__item">
