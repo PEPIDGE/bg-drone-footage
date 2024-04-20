@@ -39,7 +39,7 @@ export const ServicesPage = () => {
           <div className="card-container">
             <div className="content-section">
               <div className="card">
-                <img src="https://i.postimg.cc/wv6XN1f2/DJI-0050.jpg" className="taller-img" />
+                <img src="https://i.postimg.cc/4y50YsCT/DJI-0086.jpg" className="quality" />
                 <h2>Вили</h2>
                 <p>
                   Искате да отдавате ваш недвижим имот под наем? Накъде без

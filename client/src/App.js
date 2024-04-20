@@ -16,6 +16,7 @@ import { NotFound } from "./page-components/error-components/NotFound";
 import { Motocross } from "./page-components/session-components/Motocross";
 import { Akvapark } from "./page-components/session-components/Akvapark";
 import { VrachanskiBalkan } from "./page-components/session-components/VrachanskiBalkan";
+import { Pergola } from "./page-components/session-components/Pergola";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contacts" element={<ContactPage />} />
         <Route path="/sessions" element={<SessionsPage />} />
         
+        <Route path="/sessions/pergola" element={<Pergola />} />
         <Route path="/sessions/vila-Gingerlandiq" element={<VilaGingerlandiq />}/>
         <Route path="/sessions/plevenska-panorama" element={<Panorama />} />
         <Route path="/sessions/tylenovo" element={<Tylenovo />} />
@@ -35,6 +37,7 @@ function App() {
         <Route path="/sessions/motocross" element={<Motocross />} />
         <Route path="/sessions/akvapark" element={<Akvapark />} />
         <Route path="/sessions/vrachanski-balkan" element={<VrachanskiBalkan />} />
+
 
         <Route path="*" element={<NotFound />} /> 
       </Routes>

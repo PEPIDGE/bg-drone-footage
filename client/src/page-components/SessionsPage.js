@@ -128,7 +128,16 @@ export const SessionsPage = () => {
               </div>
              </div>
             </div>
-            
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/4y50YsCT/DJI-0086.jpg" className="grivitsa" />
+             <div className="text-session">
+             <h2>Вила с пергола</h2>
+              <p>Красиви снимки с дрон на един прекрасен имот </p>
+              <div className="show-more-wrap">
+                 <Link to={"pergola"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
 
           </div>
         </div>

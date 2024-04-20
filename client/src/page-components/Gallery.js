@@ -49,11 +49,25 @@ export const Gallery = () => {
        </div>
         
         <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/4y50YsCT/DJI-0086.jpg" title="Вила с пергола" alt="Вила с пергола" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/pergola" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>
+
+       <div className={`gallery-item `} >
           <img src="https://i.postimg.cc/KvZYynKJ/DJI-0320.jpg" title="Паметник Майка България" alt="Паметник Майка България" loading="lazy" />
           <div className={`gallery-overlay`}>
             <Link to="/sessions/maika-Bulgariq" onClick={handleLinkClick}>Виж повече</Link>
           </div>
        </div>
+       <div className={`gallery-item `} >
+          <img src="https://i.postimg.cc/fTzvGHjp/DJI-0066.jpg" title="Вила с пергола" alt="Вила с пергола" loading="lazy" />
+          <div className={`gallery-overlay`}>
+            <Link to="/sessions/pergola" onClick={handleLinkClick}>Виж повече</Link>
+          </div>
+       </div>
+
         <div className={`gallery-item `} >
           <img src="https://i.postimg.cc/4yF40CYL/DJI-0342.png" title="басейн Гривица" alt="басейн Гривица" loading="lazy" />
           <div className={`gallery-overlay`}>

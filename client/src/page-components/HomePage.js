@@ -67,7 +67,7 @@ export const HomePage = () => {
             </div>
 
           <div className="card">
-            <img className="quality" src="https://i.postimg.cc/MHpg9KTb/regatta.jpg" title="Качество" alt="Качество" loading="lazy"/>
+            <img className="quality" src="https://i.postimg.cc/4y50YsCT/DJI-0086.jpg" title="Качество" alt="Качество" loading="lazy"/>
             <h2>Качество</h2>
             <p>4К HDR видеа.</p>
           </div>
