@@ -78,6 +78,7 @@ export const SessionsPage = () => {
               <img src="https://i.postimg.cc/x8YHSjr1/grivitsa-Thumbnail1.jpg" className="grivitsa" />
              <div className="text-session">
              <h2>Хотел Гривица</h2>
+              <p>Ние снимахме хотел Гривица от въздуха.</p>
               <div className="show-more-wrap">
                  <Link to={"grivitsa"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
               </div>
