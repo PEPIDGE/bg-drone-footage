@@ -39,6 +39,16 @@ export const SessionsPage = () => {
         <h1 className="title title-sessions">Нашите сесии</h1>
         <div className="card-container sessions" >
           <div className="content-section " >
+          <div className="card card-session">
+              <img src="https://i.postimg.cc/4y50YsCT/DJI-0086.jpg" className="grivitsa" />
+             <div className="text-session">
+             <h2>Вила с пергола</h2>
+              <p>Красиви снимки с дрон на един прекрасен имот </p>
+              <div className="show-more-wrap">
+                 <Link to={"pergola"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
             <div className="card card-session">
               <img src="https://i.postimg.cc/wv6XN1f2/DJI-0050.jpg" className="quality"/>
              <div className="text-session">
@@ -64,6 +74,15 @@ export const SessionsPage = () => {
             </div>
 
             </div>
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/x8YHSjr1/grivitsa-Thumbnail1.jpg" className="grivitsa" />
+             <div className="text-session">
+             <h2>Хотел Гривица</h2>
+              <div className="show-more-wrap">
+                 <Link to={"grivitsa"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
 
             <div className="card card-session">
               <img src="https://i.postimg.cc/jjRwgGHd/DJI-0095.jpg" className="quality" />
@@ -87,16 +106,6 @@ export const SessionsPage = () => {
              </div>
             </div>
 
-            <div className="card card-session">
-              <img src="https://i.postimg.cc/x8YHSjr1/grivitsa-Thumbnail1.jpg" className="grivitsa" />
-             <div className="text-session">
-             <h2>Хотел Гривица</h2>
-              <p>Ние снимахме хотел Гривица от въздуха.</p>
-              <div className="show-more-wrap">
-                 <Link to={"grivitsa"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
-              </div>
-             </div>
-            </div>
 
             <div className="card card-session">
               <img src="https://i.postimg.cc/FzpffWFb/motocross-Thumbnail.jpg" className="grivitsa" />
@@ -128,16 +137,7 @@ export const SessionsPage = () => {
               </div>
              </div>
             </div>
-            <div className="card card-session">
-              <img src="https://i.postimg.cc/4y50YsCT/DJI-0086.jpg" className="grivitsa" />
-             <div className="text-session">
-             <h2>Вила с пергола</h2>
-              <p>Красиви снимки с дрон на един прекрасен имот </p>
-              <div className="show-more-wrap">
-                 <Link to={"pergola"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
-              </div>
-             </div>
-            </div>
+            
 
           </div>
         </div>
