@@ -54,7 +54,7 @@ export const HomePage = () => {
         <div className="content-section">
           
           <div className="card">
-            <img src="https://i.postimg.cc/MHpg9KTb/regatta.jpg"  title="фотография" alt="фотография" loading="lazy"/>
+            <img src="https://i.postimg.cc/pTJv389K/DJI-0126-3.jpg"  title="фотография" alt="фотография" loading="lazy"/>
             <h2>Фотография</h2>
             <p>
               Ние предлагаме висококачествена фотография.
@@ -82,7 +82,7 @@ export const HomePage = () => {
               </p>
             </div>
             <div className="card">
-            <img className="quality" src="https://i.postimg.cc/d1HyT4TQ/card-Photo.jpg" title="време във въздуха" alt="време във въздуха" loading="lazy"/>
+            <img className="quality" src="https://i.postimg.cc/V6R39bYk/panorama3.jpg" title="време във въздуха" alt="време във въздуха" loading="lazy"/>
             <h2>Времетраене</h2>
             <p>Над 120 минути във въздуха.</p>
           </div>
