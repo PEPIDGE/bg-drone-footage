@@ -4,3 +4,51 @@
 .taller-img {
   height: 175px !important;
 }
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-underline img,
+.no-underline h2,
+.no-underline p {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content-section.second {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-section.service .card {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 30px;
+
+  margin-bottom: 30px;
+
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.quality {
+  width: 100%;
+  height: auto;
+}
+
+.production {
+  width: 100%;
+  height: auto;
+}
+
+.taller-img {
+  width: 100%;
+  height: auto;
+}
