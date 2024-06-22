@@ -35,7 +35,7 @@ export const MusicGlass = () => {
         <div className="boxes-wrap">
           <div className="border-container border-container-1">
             <h2 className="sessions">
-              Кратко клипче, което направихме за Music Glass Bg".{" "}
+              Кратко клипче, което направихме за "Music Glass Bg".{" "}
             </h2>
             <div className="yt-video-container">
               <iframe
