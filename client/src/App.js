@@ -17,6 +17,7 @@ import { Motocross } from "./page-components/session-components/Motocross";
 import { Akvapark } from "./page-components/session-components/Akvapark";
 import { VrachanskiBalkan } from "./page-components/session-components/VrachanskiBalkan";
 import { Pergola } from "./page-components/session-components/Pergola";
+import { MusicGlass } from "./page-components/session-components/MusicGlass";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/sessions/motocross" element={<Motocross />} />
         <Route path="/sessions/akvapark" element={<Akvapark />} />
         <Route path="/sessions/vrachanski-balkan" element={<VrachanskiBalkan />} />
+        <Route path="/sessions/musicGlass" element={<MusicGlass />} />
 
 
         <Route path="*" element={<NotFound />} /> 

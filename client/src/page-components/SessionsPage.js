@@ -62,6 +62,21 @@ export const SessionsPage = () => {
               </div>
              </div>
             </div>
+
+            <div className="card card-session">
+              <img src="https://i.postimg.cc/pTJv389K/DJI-0126-3.jpg" className="quality"/>
+             <div className="text-session">
+
+              <h2>Music Glass</h2>
+              <p>
+                Ние снимахме едно от най-големите раздавания на кола в България. 
+              </p>
+              <div className="show-more-wrap">
+                 <Link to={"musicGlass"} onClick={handleLinkClick} className="red-button show-more">Виж още</Link>
+              </div>
+             </div>
+            </div>
+
             <div className="card card-session">
               <img src="https://i.postimg.cc/pL5MNTBs/panorama1.png" className="quality"/>
              <div className="text-session">
